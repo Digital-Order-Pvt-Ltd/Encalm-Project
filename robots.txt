@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /atithya/ajaxcall/
+Disallow: /atithya/ajaxcall/*
+Disallow: /atithya/ajaxcall/getApiData
+
+Sitemap: https://www.encalm.com/sitemap.xml

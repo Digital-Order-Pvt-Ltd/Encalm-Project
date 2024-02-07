@@ -1,0 +1,120 @@
+<?php return function ($fontDir, $rootDir) {
+return array (
+  'sans-serif' => array(
+    'normal' => $fontDir . '/Helvetica',
+    'bold' => $fontDir . '/Helvetica-Bold',
+    'italic' => $fontDir . '/Helvetica-Oblique',
+    'bold_italic' => $fontDir . '/Helvetica-BoldOblique',
+  ),
+  'times' => array(
+    'normal' => $fontDir . '/Times-Roman',
+    'bold' => $fontDir . '/Times-Bold',
+    'italic' => $fontDir . '/Times-Italic',
+    'bold_italic' => $fontDir . '/Times-BoldItalic',
+  ),
+  'times-roman' => array(
+    'normal' => $fontDir . '/Times-Roman',
+    'bold' => $fontDir . '/Times-Bold',
+    'italic' => $fontDir . '/Times-Italic',
+    'bold_italic' => $fontDir . '/Times-BoldItalic',
+  ),
+  'courier' => array(
+    'normal' => $fontDir . '/Courier',
+    'bold' => $fontDir . '/Courier-Bold',
+    'italic' => $fontDir . '/Courier-Oblique',
+    'bold_italic' => $fontDir . '/Courier-BoldOblique',
+  ),
+  'helvetica' => array(
+    'normal' => $fontDir . '/Helvetica',
+    'bold' => $fontDir . '/Helvetica-Bold',
+    'italic' => $fontDir . '/Helvetica-Oblique',
+    'bold_italic' => $fontDir . '/Helvetica-BoldOblique',
+  ),
+  'zapfdingbats' => array(
+    'normal' => $fontDir . '/ZapfDingbats',
+    'bold' => $fontDir . '/ZapfDingbats',
+    'italic' => $fontDir . '/ZapfDingbats',
+    'bold_italic' => $fontDir . '/ZapfDingbats',
+  ),
+  'symbol' => array(
+    'normal' => $fontDir . '/Symbol',
+    'bold' => $fontDir . '/Symbol',
+    'italic' => $fontDir . '/Symbol',
+    'bold_italic' => $fontDir . '/Symbol',
+  ),
+  'serif' => array(
+    'normal' => $fontDir . '/Times-Roman',
+    'bold' => $fontDir . '/Times-Bold',
+    'italic' => $fontDir . '/Times-Italic',
+    'bold_italic' => $fontDir . '/Times-BoldItalic',
+  ),
+  'monospace' => array(
+    'normal' => $fontDir . '/Courier',
+    'bold' => $fontDir . '/Courier-Bold',
+    'italic' => $fontDir . '/Courier-Oblique',
+    'bold_italic' => $fontDir . '/Courier-BoldOblique',
+  ),
+  'fixed' => array(
+    'normal' => $fontDir . '/Courier',
+    'bold' => $fontDir . '/Courier-Bold',
+    'italic' => $fontDir . '/Courier-Oblique',
+    'bold_italic' => $fontDir . '/Courier-BoldOblique',
+  ),
+  'dejavu sans' => array(
+    'bold' => $fontDir . '/DejaVuSans-Bold',
+    'bold_italic' => $fontDir . '/DejaVuSans-BoldOblique',
+    'italic' => $fontDir . '/DejaVuSans-Oblique',
+    'normal' => $fontDir . '/DejaVuSans',
+  ),
+  'dejavu sans mono' => array(
+    'bold' => $fontDir . '/DejaVuSansMono-Bold',
+    'bold_italic' => $fontDir . '/DejaVuSansMono-BoldOblique',
+    'italic' => $fontDir . '/DejaVuSansMono-Oblique',
+    'normal' => $fontDir . '/DejaVuSansMono',
+  ),
+  'dejavu serif' => array(
+    'bold' => $fontDir . '/DejaVuSerif-Bold',
+    'bold_italic' => $fontDir . '/DejaVuSerif-BoldItalic',
+    'italic' => $fontDir . '/DejaVuSerif-Italic',
+    'normal' => $fontDir . '/DejaVuSerif',
+  ),
+  'open sans' => array(
+    'normal' => $fontDir . '/open_sans_normal_2bf6e8a03908d49a7fa7b1094b0c2804',
+    'bold' => $fontDir . '/open_sans_bold_0e7196744e416eea97ecd5b9781a44c2',
+    '300_italic' => $fontDir . '/open_sans_300_italic_bbf022708fbc12b32e436c3fc9556a14',
+    'italic' => $fontDir . '/open_sans_italic_ce12633a2ffe234946eafc57381caa3a',
+    '600_italic' => $fontDir . '/open_sans_600_italic_d5465e8d9fbc8917307f8ac7dca96398',
+    'bold_italic' => $fontDir . '/open_sans_bold_italic_c02c7106f1b3bee9ca386a6f0b03ab93',
+    '300' => $fontDir . '/open_sans_300_38aaef3a6f81e0869aefd29fb43eb15a',
+    '600' => $fontDir . '/open_sans_600_624d6e61f7711aa5830c80aa3bba1264',
+  ),
+  'playfair display' => array(
+    'italic' => $fontDir . '/playfair_display_italic_c8454159d88c4bf6a193b4793d720e38',
+    'normal' => $fontDir . '/playfair_display_normal_3e3339992efb50efd3a354184ece776c',
+    '500' => $fontDir . '/playfair_display_500_40d794e5cdb2cc3a724080fb748186a5',
+    '600' => $fontDir . '/playfair_display_600_ffb07661c655a46c4339f61f61558bc6',
+    'bold' => $fontDir . '/playfair_display_bold_b3e128fdd13666ad8c84eea39fb15318',
+  ),
+  'poppins' => array(
+    '300_italic' => $fontDir . '/poppins_300_italic_56b93a487d8c28777146ffd1eef895fd',
+    'italic' => $fontDir . '/poppins_italic_46da975c18aa560b0bd3b88b138916e9',
+    '500_italic' => $fontDir . '/poppins_500_italic_c293cb67db049e112d06248502d9b24c',
+    '600_italic' => $fontDir . '/poppins_600_italic_5bc21aa56d8039e2f3d1b8f790f9558d',
+    'bold_italic' => $fontDir . '/poppins_bold_italic_1918f692c841b01acf827608eecc4cdd',
+    '300' => $fontDir . '/poppins_300_999a4088f0da952988730996a4bec1d8',
+    'normal' => $fontDir . '/poppins_normal_ee697d7869cb745ccf3ccccc013145ad',
+    '500' => $fontDir . '/poppins_500_fce53b208cddccda1573b7620b579598',
+    '600' => $fontDir . '/poppins_600_9623fbc18c38938c2057a9aae8390a42',
+    'bold' => $fontDir . '/poppins_bold_8fe618268f56b4b8f1e70e87a9e99fc0',
+  ),
+  'boxicons' => array(
+    'normal' => $fontDir . '/boxicons_normal_74dc5e488caa158a07e794c388acf956',
+  ),
+  'fontawesome' => array(
+    'normal' => $fontDir . '/fontawesome_normal_6b8fcb303bfef6f4ea9e882534054307',
+  ),
+  'icomoon' => array(
+    'normal' => $fontDir . '/icomoon_normal_783b0253d8166fb7be63473201f6045e',
+  ),
+);
+}; ?>

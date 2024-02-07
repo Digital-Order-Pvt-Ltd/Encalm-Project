@@ -1,0 +1,97 @@
+html, body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    line-height: 160%;
+    color: #464646;
+}
+p {
+    margin: 0px 0px 10px 0px;
+}
+small {
+    font-size: 90%;
+}
+table {
+    font-size: 13px;
+    width: 100%;
+    border-collapse: collapse;
+}
+.wrapper {
+    width: 800px;
+    margin: 60px auto;
+    font-size: 13px;
+}
+.content {
+    border: solid 0px #152248;
+}
+.bg_primary {
+    background: #152248;
+    color: #ffffff;
+}
+.text_primary {
+    color: #152248;
+}
+.p-0 {
+    padding: 0px 0px !important;
+}
+.p-10 {
+    padding: 10px 10px;
+}
+.header h4 {
+    font-size: 160%;
+    margin: 10px 0px;
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0px 0px;
+}
+.table th, .table td {
+    padding: 8px 8px;
+    border: solid 1px #dedede;
+    border-top: solid 0px #dedede;
+    border-collapse: collapse;
+}
+.aligntop th, .aligntop td {
+    vertical-align: top;
+}
+.ptable th, .ptable td {
+    padding: 8px 8px;
+    border: solid 1px #cda45e;
+    border-top: solid 0px #cda45e;
+    border-collapse: collapse;
+    background: #cda45e;
+    color: #ffffff;
+}
+.terms {
+    padding: 20px 0px;
+    margin: 0px 0px;
+}
+.terms h4 {
+    font-size: 150%;
+    margin: 20px 0px 10px 0px;
+}
+.terms ol {
+    margin: 20px 0px 0px 10px;
+    padding-left: 0px;
+}
+.terms ol li {
+    margin-bottom: 10px;
+}
+.terms ol ol {
+    padding-left: 20px;
+    margin: 6px 0px 20px 0px;
+}
+.terms table {
+    margin: 15px 0px;
+}
