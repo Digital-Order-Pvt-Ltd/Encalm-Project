@@ -101,10 +101,7 @@
 }
 
 .img-international {
-    border-radius: 50%;
     width: 80%;
-    height: 460px;
-
 }
 
 .img-international:hover {
@@ -170,7 +167,7 @@
 
 .red-circle::before {
     content: '';
-    background-color: #ff8c00;
+    background-color: #c9a477;
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -349,14 +346,14 @@ a {
 
                         </div>
                         <div class="col-md-6">
-                            <p class="pt-3 mt-md-5"><img src="<?=base_url('atithya_assets/assets/')?>img/services_1.jpg"
+                            <p class="pt-3 mt-md-5"><img src="<?=base_url('atithya_assets/assets/')?>img/services_7.jpg"
                                     class=" img-international marginLeft-25" /></p>
                         </div>
                     </div>
                     <div class="d-flex align-items-center mobile-flex gap-4">
                         <div class="col-md-6 ">
                             <p class="pt-3 mt-md-5 mt-2"><img
-                                    src="<?=base_url('atithya_assets/assets/')?>img/services_2.jpg"
+                                    src="<?=base_url('atithya_assets/assets/')?>img/services_8.jpg"
                                     class=" img-international marginLeft-25"
                                     alt="Encalm Lounge, Atithya services, Hyderabad Airport" /></p>
                         </div>
