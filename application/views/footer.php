@@ -44,7 +44,7 @@
               </form>
           </div> -->
           <div class="col-lg-5">
-            <h6 class="text-primarys">ADDRESS</h6>
+            <h6 class="text-primarys">CONTACT US</h6>
               <hr/>
               <div class="footer-info">
                   <h6 class="text-white">ENCALM HOSPITALITY PVT. LTD.</h6>

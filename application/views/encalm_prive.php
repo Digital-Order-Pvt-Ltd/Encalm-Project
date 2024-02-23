@@ -1073,26 +1073,32 @@ include('header.php'); ?>
   }
 .bold-text{
   font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
 }
 .location{
-      display: flex;
+     display: flex;
     justify-content: center;
     align-items: center;
 }
 .location .location_para{
-  border: 2px solid #cda45e;
-    padding: 18px 51px;
-    background: #142248;
-    margin: 0 13px;
+  border: 2px solid #d9ac5e;
+    padding: 13px 30px;
+    height: 250px;
+    min-height: 250px;
+    overflow: auto;
+    margin: 18px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .location .location_para p{
 margin: 0;
-color: #fff !important;
+color: #000 !important;
 padding: 4px 0;
 }
 .location .location_para p i{
-  color: #f1a82b;
+  color: #c9a477;
     padding-right: 6px;
 }
 .location .location_para p a{
@@ -1161,7 +1167,7 @@ padding: 4px 0;
         <div class="col-lg-12  pt-lg-0 content">
           <div class="section-title text-center">
             <!--<h2>About</h2>-->
-            <p class="mr-top-136"><img src="<?= base_url() ?>assets/image/encalm_prive_logo.png" alt="Encalm Privé" title="Encalm Privé" style="width: 150px;"></p>
+            <p class="mr-top-136"><img src="<?= base_url() ?>assets/image/encalm_prive_logo.png" alt="Encalm Privé" title="Encalm Privé" style="width: 250px;height:auto;"></p>
           </div>
           <!--           <div class="row">-->
           <!--  <div class="col-lg-12">-->
@@ -1176,11 +1182,22 @@ padding: 4px 0;
             With an emphasis on providing a grand way to spend time at the airport, Encalm Privé takes luxury to new heights. Guests can expect a myriad of services that redefine the business class lounge experience, including plush seating areas, complimentary Wi-Fi, and a buffet that tantalizes with an array of delectable food, fine wine, and spirits. You can step into the rejuvenating showers, wash away the tiredness, and feel invigorated. Our laundry and ironing attendants are ready to assist, ensuring your clothes are immaculate and wrinkle-free for your important meetings or events.
           </p>
           <p class="text-center text-secondary mt-4">At Encalm Privé’, we understand the importance of holistic well-being and provide a dedicated fitness zone and spa. You can delve into an immersive gaming experience or accompany your kids to the dedicated play area, ensuring your wait for the flight is filled with excitement and entertainment. If you want to take it easy, nestled in a stylish setting, the sleeping pods will provide a serene escape where you can enjoy a restful slumber.</p> -->
+          <h1 style="    text-align: center;font-size: 28px;">A luxurious business class lounge by Encalm.</h1>
+          <p class="text-center text-secondary mt-4">Prepare to immerse yourself in a world of indulgence and high-class comfort at Encalm Privé, the latest luxury airport lounge for business class travellers at the Delhi Airport. Behind the glass walls of this oasis of opulence, lies a sanctuary meticulously designed to offer passengers an exceptional and stress-free experience, where extravagance meets convenience.</p>
+          <p class="text-center text-secondary mt-4">
+            With an emphasis on providing a grand way to spend time at the airport, Encalm Privé takes luxury to new heights. Guests can expect a myriad of services that redefine the business class lounge experience, including plush seating areas, complimentary Wi-Fi, and a buffet that tantalizes with an array of delectable food, fine wine, and spirits. You can step into the rejuvenating showers, wash away the tiredness, and feel invigorated. Our laundry and ironing attendants are ready to assist, ensuring your clothes are immaculate and wrinkle-free for your important meetings or events.
+          </p>
+          <p class="text-center text-secondary mt-4">At Encalm Privé’, we understand the importance of holistic well-being and provide a dedicated fitness zone and spa. You can delve into an immersive gaming experience or accompany your kids to the dedicated play area, ensuring your wait for the flight is filled with excitement and entertainment. If you want to take it easy, nestled in a stylish setting, the sleeping pods will provide a serene escape where you can enjoy a restful slumber.</p>
           <p class="text-center text-secondary mt-4">For guests seeking walk-in access to the Encalm Lounges, payment can be conveniently made at the entrance of the respective lounge. The prices are as mentioned below:</p>
       
           <p class="text-center text-secondary mt-4">INR 3485 plus taxes for access up to 2 hours</p>
           <p class="text-center text-secondary mt-4">Children INR 2975 plus taxes for access up to 2 hours</p>
-        <p class="text-center text-secondary mt-4"> <span class="bold-text">Pet Policy:- </span>Pets weighing under 5 kg are welcome in the lounge; however, it is imperative that they remain securely housed in a carriage throughout the entirety of the stay.</p>
+        <p class="text-center text-secondary mt-4">
+           <span class="bold-text">Pet Policy:- </span> We appreciate your love for your pets! However, due 
+to safety and hygiene reasons, we do not allow pets 
+inside the lounge. Your understanding in this matter 
+is highly appreciated.</p>
+        
         </div>
       </div>
     </div>
@@ -1199,17 +1216,17 @@ padding: 4px 0;
         </div>
 
         <div class="icon-serve">
-          <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/louge/Bar.png" alt="Bar at lounge">
+          <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/louge/bar.png" alt="Bar at lounge">
             <p class="color-main text-center">Bar</p>
           </div>
-          <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/louge/F&amp;B.png" alt="F&B">
+          <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/louge/F&B.png" alt="F&B">
             <p class="color-main text-center">F&B</p>
           </div>
           <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/louge/Flight-Information.png" alt="Flight information">
             <p class="color-main text-center">Flight Information</p>
           </div>
           <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/louge/Lounge-Bay.png" alt="Lounge bay">
-            <p class="color-main text-center">Lounge Bay</p>
+            <p class="color-main text-center">Lounge Access</p>
           </div>
           <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/louge/Newspaper-and-Magazine.png" alt="Newspaper and Magazine">
             <p class="color-main text-center">Newspaper And Magazine</p>
@@ -1218,14 +1235,26 @@ padding: 4px 0;
             <p class="color-main text-center">Wi Fi</p>
           </div>
 
-          <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/live_cooking.png" alt="Wi Fi">
+          <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/louge/livecooking.png" alt="Live Cooking">
             <p class="color-main text-center">Live Cooking</p>
           </div>
-          <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/library.png" alt="Wi Fi">
+          <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/louge/Business.png" alt="Business Center">
             <p class="color-main text-center">Business Centre</p>
           </div>
-          <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/library.png" alt="Wi Fi">
+          <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/louge/Library.png" alt="Library">
             <p class="color-main text-center">Library</p>
+          </div>
+          <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/louge/BuggyService.png" alt="Buggy">
+            <p class="color-main text-center">Buggy Service</p>
+          </div>
+          <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/louge/gym.png" alt="Gym">
+            <p class="color-main text-center">Gym</p>
+          </div>
+          <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/louge/gamingzone.png" alt="Gaming Zone">
+            <p class="color-main text-center">Gaming Zone</p>
+          </div>
+          <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/louge/cigarroom.png" alt="Cigar Room">
+            <p class="color-main text-center">Cigar Room</p>
           </div>
 
         </div>
@@ -1287,12 +1316,12 @@ padding: 4px 0;
         <div class="row">
           <div class="col-lg-12">
             <div class="text-center">              
-                  <h5 class="color-main text-center f-36 mb-3 pb-4">Location</h5>
+                  <h5 class="color-main text-center f-36 mb-3 pb-4">Locations</h5>
                   <div class="location">
                     <div class="location_para">
-                    <p class="text-center"><i class="fa fa-map-marker" aria-hidden="true"></i>Level 3, International Departures, Terminal 3, IGI Airport, New Delhi 110037</p>
-                    <p class="text-center"><a href="mailto:prive.del@encalm.com"><i class="fa fa-envelope" aria-hidden="true"></i>prive.del@encalm.com</a> </p>
-                    <p class="text-center"> <a href="tel:+911149630619"><i class="fa fa-phone" aria-hidden="true"></i>+91 7428633004</a></p>
+                    <p class="text-center color-black"><i class="fa fa-map-marker" aria-hidden="true"></i>Level 3, International Departures, Terminal 3, IGI Airport, New Delhi 110037</p>
+                    <p class="text-center"><a href="mailto:prive.del@encalm.com" class=" color-black"><i class="fa fa-envelope" aria-hidden="true"></i>prive.del@encalm.com</a> </p>
+                    <p class="text-center"> <a href="tel:+911149630619" class=" color-black"><i class="fa fa-phone" aria-hidden="true"></i>+91 7428633004</a></p>
                     </div>
                    
                   </div>

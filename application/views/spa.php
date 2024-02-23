@@ -579,20 +579,28 @@ height:65px;
     align-items: center;
 }
 .location .location_para{
-  border: 2px solid #cda45e;
-    padding: 18px 51px;
-    background: #142248;
-    margin: 0 13px;
+  border: 2px solid #d9ac5e;
+         padding: 13px 30px;
+         height: 250px;
+         min-height: 250px;
+         overflow: auto;
+          margin: 18px 12px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
 }
+
 .location .location_para p{
 margin: 0;
-color: #fff !important;
+color: #000 !important;
 padding: 4px 0;
 }
 .location .location_para p i{
-  color: #f1a82b;
+  color: #c9a477;
     padding-right: 6px;
 }
+
 .location .location_para p a{
   color: #fff;
 }
@@ -650,7 +658,7 @@ padding: 4px 0;
       <div class="row">
         <div class="col-lg-12 pt-4 pt-lg-0 content color-black text-justify">
         <h4>INTRODUCING ENCALM SPA</h4>
-         <p class="text-justify color-black">At Encalm Spa, we understand that every traveller is unique, and our diverse selection of services reflects our commitment to providing a tailored escape, leaving you refreshed and rejuvenated before your next journey.</p>
+         <p class="text-justify color-black">At Encalm Spa, we understand that every traveller is unique, and our diverse selection of services reflects our commitment to provide a tailored escape, leaving you refreshed and rejuvenated before your next journey.</p>
           <p class="text-justify color-black">Travel comes with its challenges, and at Encalm Spa, we understand the importance of providing a sanctuary amid the demands of your journey. Step into our haven, where you can unwind, recharge, and immerse yourself in tranquillity, right in the heart of your travel experience. </p>
          <!-- <p class="text-justify color-black">With all the aforementioned challenges of travelling, our guests deserve a break to relax during their journey.</p>
        <p class="text-justify color-black">&nbsp;</p> -->
@@ -685,7 +693,7 @@ padding: 4px 0;
                 <p class="text-justify color-black"><i class="fa fa-phone color-blue" aria-hidden="true"></i> <a class="color-black" href="tel:+911149630620">+91 1149630620</a></p>
              -->
                 
-			<p class="text-justify color-black"><i class="fa fa-envelope color-blue" aria-hidden="true"></i> <a href="mailto:spa@encalm.com">spa@encalm.com</a> </p>	
+			<!-- <p class="text-justify color-black"><i class="fa fa-envelope color-blue" aria-hidden="true"></i> <a href="mailto:spa@encalm.com">spa@encalm.com</a> </p>	 -->
 				
           <!--<p class="text-justify color-black"><strong>For Enquires:</strong><br>
                 <p class="text-justify color-black"><i class="fa fa-envelope color-blue" aria-hidden="true"></i> <a href="mailto:spa@encalm.com">spa@encalm.com</a> </p>
@@ -704,15 +712,18 @@ padding: 4px 0;
         <div class="row">
           <div class="col-lg-12">
             <div class="text-center">              
-                  <h5 class="color-main text-center f-36 mb-3 pb-4">Location</h5>
+                  <h5 class="color-main text-center f-36 mb-3 pb-4">Locations</h5>
                   <div class="location">
                     <div class="location_para">
-                    <p class="text-center"><i class="fa fa-map-marker" aria-hidden="true"></i>  T3 International Departures,IGI Airport, New Delhi</p>
-                    <p class="text-justify"> <a href="tel:+911149632241"><i class="fa fa-phone" aria-hidden="true"></i>+91 1149632241</a></p>
+                    <p class="text-justify"><i class="fa fa-map-marker" aria-hidden="true"></i>  T3 International Departures,IGI Airport, New Delhi</p>
+                    <p class="text-justify"><i class="fa fa-envelope" aria-hidden="true"></i>  <a href="mailto:spa@encalm.com" class="color-black">spa@encalm.com</a></p>
+                    <p class="text-justify"> <a href="tel:+911149632241" class="color-black"><i class="fa fa-phone" aria-hidden="true"></i>+91 1149632241</a></p>
                     </div>
                     <div class="location_para">
-                  <p class="text-center"><i class="fa fa-map-marker" aria-hidden="true"></i>T3 Domestic Departures, IGI Airport, New Delhi</p>
-                  <p class="text-justify"><a href="tel:+911149630620"><i class="fa fa-phone " aria-hidden="true"></i> +91 1149630620</a></p>
+                  <p class="text-justify"><i class="fa fa-map-marker" aria-hidden="true"></i>T3 Domestic Departures, IGI Airport, New Delhi</p>
+                  <p class="text-justify"><i class="fa fa-envelope" aria-hidden="true"></i>  <a href="mailto:spa@encalm.com" class="color-black">spa@encalm.com</a></p>
+                   
+                  <p class="text-justify"><a href="tel:+911149630620" class="color-black"><i class="fa fa-phone " aria-hidden="true"></i> +91 1149630620</a></p>
                   </div>
                   </div>
        
@@ -726,7 +737,7 @@ padding: 4px 0;
       <div class="row">
         <div class="col-lg-12">
           <div class="section-title text-center">
-             <p>Our Gallery</p>
+          <h5 class="color-main text-center f-36 mb-3 pb-4">Our Gallery</h5>
           </div>
         </div>
       </div>

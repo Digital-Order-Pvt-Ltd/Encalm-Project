@@ -1074,11 +1074,14 @@ include('header.php'); ?>
     margin-top: 47px;
     border: 2px solid #d9ac5e;
     padding: 19px 48px;
-    height:290px;
-  }
+    height: 300px;
+    min-height: 300px;
+    overflow: auto;
+}
+  
 
   .departure_block h4 {
-    font-size: 25px;
+    font-size: 21px;
     font-weight: 600;
     color: #152349;
   }
@@ -1100,7 +1103,14 @@ include('header.php'); ?>
     margin-top: 47px;
     border: 2px solid #d9ac5e;
     padding: 13px 30px;
+    height: 250px;
+    min-height: 250px;
+    overflow: auto;
 }
+  .location_block i{
+    color: #c9a477;
+}
+
   .location_block h4 {
     font-size: 25px;
     font-weight: 600;
@@ -1150,6 +1160,9 @@ include('header.php'); ?>
   .brand-carousel-1 .owl-stage-outer{}
   .brand-carousel-1 .owl-stage-outer .owl-stage{
       
+  }
+  .pet-policy{
+    font-weight: 500;
   }
 
 
@@ -1228,14 +1241,18 @@ include('header.php'); ?>
           <!--</div>-->
           <p class="text-center text-secondary mt-4">
             Creating Delightful Experiences.<br /><br />At Encalm Lounge, we redefine the airport experience by prioritising your comfort and convenience. Our dedicated space is carefully designed to cater to the unique needs of travellers, providing a respite from the challenges of an airport journey. Whether you need a moment to relax, to catch up on work, or simply desire a luxurious escape, step into Encalm Lounge for a delightful break amidst your journeys. </p>
-          <p class="text-center text-secondary mt-4">For guests seeking walk-in access to the Encalm Lounges, payment can be conveniently made at the entrance of the respective lounge. The prices are as mentioned below:</p>
+          
+          <p class="text-center text-secondary pet-policy mt-4"><strong>Pet Policy : </strong>We appreciate your love for your pets! However, due to safety and 
+hygiene reasons, we do not allow pets inside the lounge. Your 
+understanding in this matter is highly appreciated</p>
+<p class="text-center text-secondary mt-4">For guests seeking walk-in access to the Encalm Lounges, payment can be conveniently made at the entrance of the respective lounge. The prices are as mentioned below:</p>
         </div>
 
         <div class="col-md-4">
           <div class="departure_block">
             <h4>Domestic Departure Lounges</h4>
             <ul>
-              <li>INR 1610 plus taxes for access up to 2 hourss</li>
+              <li>INR 1610 plus taxes for access up to 2 hours</li>
               <li>Additional hours- INR 508 plus taxes per hour</li>
               <li>Children INR 1123 plus taxes (ages 6-11)</li>
             </ul>
@@ -1312,7 +1329,7 @@ include('header.php'); ?>
     <div class="container">
       <div class="row mb-5">
         <div class="col-md-12">
-          <h5 class="color-main text-center f-36">Location</h5>
+          <h5 class="color-main text-center f-36">Locations</h5>
         </div>
       </div>
       <div class="row">
@@ -1330,8 +1347,8 @@ include('header.php'); ?>
                 <div class="location_block">
                 <h5 class="color-main text-center">Delhi</h5>
                   <p class="text-center color-black"><i class="fa fa-map-marker" aria-hidden="true"></i> 2nd floor, SHA Area, Domestic Departures, Near Food Court, Terminal 2, IGI Delhi Airport, New Delhi- 110037</p>
-                  <p class="text-center color-black"> <a href="mailto:del.t2dom@encalm.com"> <i class="fa fa-envelope color-blue" aria-hidden="true"></i>  del.t2dom@encalm.com</a> </p>
-                  <p class="text-center color-black"> <a class="color-black" href="tel:+911149630619"><i class="fa fa-phone color-blue" aria-hidden="true"></i> +91 1149630619</a></p>
+                  <p class="text-center"> <a href="mailto:del.t2dom@encalm.com" class="color-black"> <i class="fa fa-envelope" aria-hidden="true"></i>  del.t2dom@encalm.com</a> </p>
+                  <p class="text-center color-black"> <a class="color-black" href="tel:+911149630619"><i class="fa fa-phone" aria-hidden="true"></i> +91 1149630619</a></p>
 
                 </div>
               </div>
@@ -1339,8 +1356,8 @@ include('header.php'); ?>
                 <div class="location_block">
                 <h5 class="color-main text-center">Delhi</h5>
                   <p class="text-center color-black"><i class="fa fa-map-marker" aria-hidden="true"></i> Mezzanine level, T1D Departures, IGI Airport, New Delhi -110037<br>&nbsp;</p>
-                  <p class="text-center color-black"><a href="mailto:t1d.lounge@encalm.com"><i class="fa fa-envelope color-blue" aria-hidden="true"></i> t1d.lounge@encalm.com</a> </p>
-                  <p class="text-center color-black"> <a class="color-black" href="tel:+911149654232"><i class="fa fa-phone color-blue" aria-hidden="true"></i> +91 1149654232</a></p>
+                  <p class="text-center"><a href="mailto:t1d.lounge@encalm.com" class="color-black"><i class="fa fa-envelope" aria-hidden="true"></i> t1d.lounge@encalm.com</a> </p>
+                  <p class="text-center color-black"> <a class="color-black" href="tel:+911149654232"><i class="fa fa-phone" aria-hidden="true"></i> +91 1149654232</a></p>
 
                 </div>
               </div>
@@ -1348,8 +1365,8 @@ include('header.php'); ?>
                 <div class="location_block">
                 <h5 class="color-main text-center">Delhi</h5>
                   <p class="text-center color-black"><i class="fa fa-map-marker" aria-hidden="true"></i> Mezzanine level, T3 International Departures, IGI Airport, New Delhi- 110037<br>&nbsp;</p>
-                  <p class="text-center color-black"><a href="mailto:inl5-6.del@encalm.com"><i class="fa fa-envelope color-blue" aria-hidden="true"></i> inl5-6.del@encalm.com</a> </p>
-                  <p class="text-center color-black"> <a class="color-black" href="tel:+911149654232"><i class="fa fa-phone color-blue" aria-hidden="true"></i> +91 1149633207</a></p>
+                  <p class="text-center"><a href="mailto:inl5-6.del@encalm.com" class="color-black"><i class="fa fa-envelope" aria-hidden="true"></i> inl5-6.del@encalm.com</a> </p>
+                  <p class="text-center color-black"> <a class="color-black" href="tel:+911149654232"><i class="fa fa-phone" aria-hidden="true"></i> +91 1149633207</a></p>
 
                 </div>
               </div>
@@ -1357,8 +1374,8 @@ include('header.php'); ?>
                 <div class="location_block">
                 <h5 class="color-main text-center">Delhi</h5>
                   <p class="text-center color-black"><i class="fa fa-map-marker" aria-hidden="true"></i> Mezzanine level, domestic departures, Terminal 3, IGI Airport, New Delhi 110037<br>&nbsp;</p>
-                  <p class="text-center color-black"><a href="mailto:d49.del@encalm.com"><i class="fa fa-envelope color-blue" aria-hidden="true"></i> d49.del@encalm.com</a> </p>
-                  <p class="text-center color-black"> <a class="color-black" href="tel:+919319595864"><i class="fa fa-phone color-blue" aria-hidden="true"></i> +91 9319595864</a></p>
+                  <p class="text-center"><a href="mailto:d49.del@encalm.com"  class="color-black"><i class="fa fa-envelope" aria-hidden="true"></i> d49.del@encalm.com</a> </p>
+                  <p class="text-center color-black"> <a class="color-black" href="tel:+919319595864"><i class="fa fa-phone" aria-hidden="true"></i> +91 9319595864</a></p>
 
                 </div>
               </div>
@@ -1373,8 +1390,8 @@ include('header.php'); ?>
                 <div class="location_block">
                 <h5 class="color-main text-center">Hyderabad</h5>
                   <p class="text-center color-black"><i class="fa fa-map-marker" aria-hidden="true"></i> Level E beside gate no. 21 SHA domestic departures RGI Airport, Shamshabad 501218 Telangana</p>
-                  <p class="text-center color-black"><a href="mailto:hyd.dom@encalm.com"><i class="fa fa-envelope color-blue" aria-hidden="true"></i> hyd.dom@encalm.com</a> </p>
-                  <p class="text-center color-black"> <a class="color-black" href="tel:+918826697922"><i class="fa fa-phone color-blue" aria-hidden="true"></i> +91 8826697922</a></p>
+                  <p class="text-center"><a href="mailto:hyd.dom@encalm.com"  class="color-black"><i class="fa fa-envelope" aria-hidden="true"></i> hyd.dom@encalm.com</a> </p>
+                  <p class="text-center color-black"> <a class="color-black" href="tel:+918826697922"><i class="fa fa-phone" aria-hidden="true"></i> +91 8826697922</a></p>
 
                 </div>
               </div>
@@ -1382,24 +1399,24 @@ include('header.php'); ?>
                 <div class="location_block">
                 <h5 class="color-main text-center">Hyderabad</h5>
                   <p class="text-center color-black"><i class="fa fa-map-marker" aria-hidden="true"></i> Level E beside gate no. 23 SHA international departures RGI Airport, Shamshabad 501218 Telangana</p>
-                  <p class="text-center color-black"><a href="mailto:hyd.int@encalm.com"><i class="fa fa-envelope color-blue" aria-hidden="true"></i> hyd.int@encalm.com</a> </p>
-                  <p class="text-center color-black"> <a class="color-black" href="tel:+918826697923"><i class="fa fa-phone color-blue" aria-hidden="true"></i> +91 8826697923</a></p>
+                  <p class="text-center"><a href="mailto:hyd.int@encalm.com"  class="color-black"><i class="fa fa-envelope" aria-hidden="true"></i> hyd.int@encalm.com</a> </p>
+                  <p class="text-center color-black"> <a class="color-black" href="tel:+918826697923"><i class="fa fa-phone" aria-hidden="true"></i> +91 8826697923</a></p>
 
                 </div>
               </div>
             </div>
           </div>
           <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-            <div class="row">
+            <div class="row justify-content-center">
 
 
 
-              <div class="col-md-12">
+              <div class="col-md-6">
                 <div class="location_block">
                 <h5 class="color-main text-center">Goa</h5>
                   <p class="text-center color-black"><i class="fa fa-map-marker" aria-hidden="true"></i> Level 2, domestic departures, Manohar International Airport, Casarvane VP, Goa 403512</p>
-                  <p class="text-center color-black"><a href="mailto:Goa.dom@encalm.com"><i class="fa fa-envelope color-blue" aria-hidden="true"></i> Goa.dom@encalm.com</a> </p>
-                  <p class="text-center color-black"> <a class="color-black" href="tel:+918826060520"><i class="fa fa-phone color-blue" aria-hidden="true"></i> +91 8826060520</a></p>
+                  <p class="text-center"><a href="mailto:Goa.dom@encalm.com"  class="color-black"><i class="fa fa-envelope" aria-hidden="true"></i> Goa.dom@encalm.com</a> </p>
+                  <p class="text-center color-black"> <a class="color-black" href="tel:+918826060520"><i class="fa fa-phone" aria-hidden="true"></i> +91 8826060520</a></p>
                 </div>
               </div>
             </div>
@@ -1521,6 +1538,31 @@ include('header.php'); ?>
             <div class="testi">
             <div class="lounge_img">
             <img src="<?= base_url() ?>assets/image/lounge_images/lounge_img5.jpg" alt="Lounge Service">
+                       </div>
+            </div>
+            <div class="testi">
+            <div class="lounge_img">
+            <img src="<?= base_url() ?>assets/image/lounge_images/lounge_img6.jpg" alt="Lounge Service">
+                       </div>
+            </div>
+            <div class="testi">
+            <div class="lounge_img">
+            <img src="<?= base_url() ?>assets/image/lounge_images/lounge_img7.jpg" alt="Lounge Service">
+                       </div>
+            </div>
+            <div class="testi">
+            <div class="lounge_img">
+            <img src="<?= base_url() ?>assets/image/lounge_images/lounge_img8.jpg" alt="Lounge Service">
+                       </div>
+            </div>
+            <div class="testi">
+            <div class="lounge_img">
+            <img src="<?= base_url() ?>assets/image/lounge_images/lounge_img9.jpg" alt="Lounge Service">
+                       </div>
+            </div>
+            <div class="testi">
+            <div class="lounge_img">
+            <img src="<?= base_url() ?>assets/image/lounge_images/lounge_img10.jpg" alt="Lounge Service">
                        </div>
             </div>
           </div>

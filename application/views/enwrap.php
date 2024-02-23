@@ -513,18 +513,24 @@ height:65px;
          align-items: center;
     }
        .location .location_para{
-         border: 2px solid #cda45e;
-         padding: 18px 51px;
-         background: #142248;
-         margin: 0 13px;
-   }
+        border: 2px solid #d9ac5e;
+         padding: 13px 30px;
+         height: 250px;
+         min-height: 250px;
+         overflow: auto;
+          margin: 18px 12px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+}
       .location .location_para p{
          margin: 0;
-         color: #fff !important;
+         color: #000 !important;
          padding: 4px 0;
    }
      .location .location_para p i{
-         color: #f1a82b;
+         color: #c9a477;
          padding-right: 14px;
   }
       .location .location_para p a{
@@ -644,7 +650,7 @@ height:65px;
         <div class="row">
           <div class="col-lg-12">
             <div class="text-center">              
-                  <h5 class="color-main text-center f-36 mb-3 pb-4">Location</h5>
+                  <h5 class="color-main text-center f-36 mb-3 pb-4">Locations</h5>
                   <div class="location">
                     <div class="location_para">
                     <p class="text-center color-black"><i class="fa fa-map-marker" aria-hidden="true"></i> IGI Airport, New Delhi</p>

@@ -523,18 +523,24 @@ height:65px;
     align-items: center;
 }
 .location .location_para{
-  border: 2px solid #cda45e;
-    padding: 18px 51px;
-    background: #142248;
-    margin: 0 13px;
+  border: 2px solid #d9ac5e;
+    padding: 13px 30px;
+    height: 250px;
+    min-height: 250px;
+    overflow: auto;
+    margin: 18px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .location .location_para p{
 margin: 0;
-color: #fff !important;
+color: #000 !important;
 padding: 4px 0;
 }
 .location .location_para p i{
-  color: #f1a82b;
+  color: #c9a477;
     padding-right: 6px;
 }
 .location .location_para p a{
@@ -637,7 +643,7 @@ padding: 4px 0;
                           <div class="box-icon text-center"><img src="<?=base_url()?>assets/image/atithya/Concierge-Services.png" alt="airport concierge services"/> <p class="color-main text-center">Concierge Services</p></div>
                           <div class="box-icon text-center"><img src="<?=base_url()?>assets/image/atithya/Greeting-services.png" alt="meet and greet at airport"/> <p class="color-main text-center">Greeting Services</p></div>
                           <div class="box-icon text-center"><img src="<?=base_url()?>assets/image/atithya/Porter.png" alt="Porter service at airport"/> <p class="color-main text-center">Porter</p></div>
-                          <!--<div class="box-icon text-center"><img src="<?=base_url()?>assets/image/atithya/Wheel-Chair.png" alt="Wheel chair assistance"/> <p class="color-main text-center">Wheel Chair</p></div>-->
+                          <div class="box-icon text-center"><img src="<?=base_url()?>assets/image/atithya/Lounge_Bay.png" alt="Sofa"/> <p class="color-main text-center">Lounge Access</p></div>
                       
                     </div>
           
@@ -650,24 +656,24 @@ padding: 4px 0;
   <!-------------------Location-------------------------->
 <section class="mt-2 mb-5">
     <div class="container">
-    <h5 class="color-main text-center f-36">Location</h5>
+    <h5 class="color-main text-center f-36">Locations</h5>
         <div class="row">
           <div class="col-lg-12">
                <div class="location">
                     <div class="location_para">
                     <p class="text-center"><i class="fa fa-map-marker" aria-hidden="true"></i>  IGI Airport, New Delhi</p>
-                    <p class="text-center"><a href="mailto:guest.services@encalm.com"><i class="fa fa-envelope " aria-hidden="true"></i> guest.services@encalm.com</a> </p>
-                  <p class="text-center"><a href="tel:+919289366950"><i class="fa fa-phone " aria-hidden="true"></i> +91-9289366950</a></p>
+                    <p class="text-center"><a href="mailto:guest.services@encalm.com" class="color-black"><i class="fa fa-envelope " aria-hidden="true"></i> guest.services@encalm.com</a> </p>
+                  <p class="text-center"><a href="tel:+919289366950" class="color-black"><i class="fa fa-phone " aria-hidden="true"></i> +91-9289366950</a></p>
                     </div>
                     <div class="location_para">
                   <p class="text-center"><i class="fa fa-map-marker" aria-hidden="true"></i>RGI Airport, Hyderabad</p>
-                  <p class="text-center"><a href="mailto:guest.services@encalm.com"><i class="fa fa-envelope " aria-hidden="true"></i> guest.services@encalm.com</a> </p>
-                  <p class="text-center"><a href="tel:+919289366950"><i class="fa fa-phone " aria-hidden="true"></i> +91-9289366950</a></p>
+                  <p class="text-center"><a href="mailto:guest.services@encalm.com" class="color-black"><i class="fa fa-envelope " aria-hidden="true"></i> guest.services@encalm.com</a> </p>
+                  <p class="text-center"><a href="tel:+919289366950" class="color-black"><i class="fa fa-phone " aria-hidden="true"></i> +91-9289366950</a></p>
                   </div>
                     <div class="location_para">
                   <p class="text-center"><i class="fa fa-map-marker" aria-hidden="true"></i>Manohar International Airport, Goa</p>
-                  <p class="text-center"><a href="mailto:guest.services@encalm.com"><i class="fa fa-envelope " aria-hidden="true"></i> guest.services@encalm.com</a> </p>
-                  <p class="text-center"><a href="tel:+919289366950"><i class="fa fa-phone " aria-hidden="true"></i> +91-9289366950</a></p>
+                  <p class="text-center"><a href="mailto:guest.services@encalm.com" class="color-black"><i class="fa fa-envelope " aria-hidden="true"></i> guest.services@encalm.com</a> </p>
+                  <p class="text-center"><a href="tel:+919289366950" class="color-black"><i class="fa fa-phone " aria-hidden="true"></i> +91-9289366950</a></p>
                   </div>
                   </div>
                  
