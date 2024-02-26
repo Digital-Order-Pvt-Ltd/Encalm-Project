@@ -146,7 +146,8 @@ a {
                                         <ul>
                                             <li>Assistance from the aerobridge or bus gate as per arrival (bridge
                                                 connecting aircraft & terminal)</li>
-                                            <li> Guidance at CKIN counters • Gate Transfer on Buggy (battery operated
+                                            <li> Guidance at CKIN counters</li>
+                                             <li> Gate Transfer on Buggy (battery operated
                                                 car)* </li>
                                             <li> Porter assistance from baggage belt to check-in of departures* </li>
                                             <li> Lounge Access for 2 hours* (at departure only)</li>
@@ -160,7 +161,7 @@ a {
                                         <ul>
                                             <li>Assistance from the aerobridge or bus gate as per arrival (bridge
                                                 connecting aircraft & terminal)</li>
-                                            <li> Guidance at CKIN counters • Gate Transfer on Buggy (battery operated
+                                            <li> Guidance at CKIN counters </li><li> Gate Transfer on Buggy (battery operated
                                                 car)* </li>
                                             <li> Porter assistance from baggage belt to check-in of departures* </li>
                                             <li> Lounge Access for 2 hours* (at departure only)</li>
@@ -175,7 +176,7 @@ a {
                                         <ul>
                                             <li>Assistance from the aerobridge or bus gate as per arrival (bridge
                                                 connecting aircraft & terminal)</li>
-                                            <li> Guidance at CKIN counters • Gate Transfer on Buggy (battery operated
+                                            <li> Guidance at CKIN counters </li><li> Gate Transfer on Buggy (battery operated
                                                 car)* </li>
                                             <li> Porter assistance from baggage belt to check-in of departures* </li>
                                             <li> Lounge Access for 2 hours* (at departure only)</li>

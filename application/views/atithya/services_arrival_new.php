@@ -344,14 +344,13 @@ a {
                         <div class="col-md-6">
                         <img src="<?=base_url('atithya_assets/assets/')?>img/services_1.jpg"
                                     class=" img-international  marginLeft-25" />
-                            <!-- <p class="pt-3 mt-md-5"><img src="<?=base_url('atithya_assets/assets/')?>img/services_1.jpg"
-                                    class=" img-international  marginLeft-25" /></p> -->
+                          
                         </div>
                     </div>
                     <div class="d-flex align-items-center gap-4 mobile-flex">
                         <div class="col-md-6">
                         <img
-                                    src="<?=base_url('atithya_assets/assets/')?>img/services_2.jpg"
+                                    src="<?=base_url('atithya_assets/assets/')?>img/Namaste-Atithya-Team.png"
                                     class=" img-international marginLeft-25"
                                     alt="Encalm Lounge, Atithya services, Hyderabad Airport" /> 
                             <!-- <p class="pt-3 mt-md-5 mt-2"><img
@@ -385,7 +384,7 @@ a {
                                         </tr>
                                         <tr>
                                             <td>Assistance from the aerobridge or bus gate as per arrival (bridge
-                                                connecting aircraft & terminal</td>
+                                                connecting aircraft & terminal)</td>
                                             <td><span class="red-circle"></span></td>
                                             <td><span class="red-circle"></span></td>
                                             <td><span class="red-circle"></span></td>
@@ -536,7 +535,7 @@ a {
                                     </tr>
 
                                     <tr>
-                                        <td>Unlimited Rescheduling</td>
+                                        <td>Unlimited rescheduling</td>
 
                                         <td></td>
                                         <td></td>
@@ -554,7 +553,7 @@ a {
                             </table>
                         </div>
                         <div class="col-md-6">
-                            <p class="pt-3 mt-md-5"><img src="<?=base_url('atithya_assets/assets/')?>img/services_4.jpg"
+                            <p class="pt-3 mt-md-5"><img src="<?=base_url('atithya_assets/assets/')?>img/Namaste-Atithya-Team.png"
                                     class=" img-international  marginLeft-25" /></p>
                         </div>
                     </div>
@@ -696,7 +695,7 @@ a {
 
                                         <td>ARRIVAL</th>
                                         <td>INR 2400</th>
-                                        <td>INR 3000</th>
+                                        <td>INR 3200</th>
                                         <td>INR 4000</th>
                                     </tr>
                                     <tr>
@@ -726,7 +725,7 @@ a {
                                     </tr>
 
                                     <tr>
-                                        <td>Unlimited Rescheduling</td>
+                                        <td>Unlimited rescheduling</td>
 
                                         <td></td>
                                         <td></td>
@@ -752,7 +751,7 @@ a {
                     <div class="d-flex align-items-center mobile-flex gap-4 mobile-flex">
                         <div class="col-md-6 ">
                             <p class="pt-3 mt-md-5 mt-2"><img
-                                    src="<?=base_url('atithya_assets/assets/')?>img/services_6.jpg"
+                                    src="<?=base_url('atithya_assets/assets/')?>img/imgdepart.png"
                                     class=" img-international marginLeft-25" /></p>
                         </div>
                         <div class="col-md-6 over-flow">
@@ -809,7 +808,7 @@ a {
                                         </tr>
 
                                         <tr>
-                                            <td>Unlimited Rescheduling</td>
+                                            <td>Unlimited rescheduling</td>
 
                                             <td></td>
                                             <td></td>
@@ -836,8 +835,7 @@ a {
                                 12 hours of service time.</li>
                             <li> The above shared rates are per pax and inclusive of GST @ 18%.</li>
                             <li> Service charges applicable for Child (2-12 years) would be 30% discount on the price
-                                applicable for Adult Guests. </li>
-                            <li>Infant (0-2 years) will not be charged. </li><li>  Lounge access for 2 hours is applicable for
+                                applicable for Adult Guests. Infant (0-2 years) will not be charged. </li><li>  Lounge access for 2 hours is applicable for
                                 all places where lounge is mentioned. Additional access beyond this duration will incur
                                 additional charges.</li>
                             <li> The services are subject to government regulations. Prevailing at the time of delivery
