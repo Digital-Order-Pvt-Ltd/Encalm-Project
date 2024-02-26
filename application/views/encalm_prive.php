@@ -1256,6 +1256,19 @@ is highly appreciated.</p>
           <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/louge/cigarroom.png" alt="Cigar Room">
             <p class="color-main text-center">Cigar Room</p>
           </div>
+          <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/louge/naproom.png" alt="Nap Room">
+            <p class="color-main text-center">Nap Rooms</p>
+          </div>
+          <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/louge/privatedine.png" alt="Private dining room">
+            <p class="color-main text-center">Private Dining Room</p>
+          </div>
+          <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/louge/shower.png" alt="Shower facilities">
+            <p class="color-main text-center">Shower Facilities</p>
+          </div>
+          <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/louge/wellness.png" alt="Wellness Zone">
+            <p class="color-main text-center">Wellness Zone</p>
+          </div>
+          
 
         </div>
 

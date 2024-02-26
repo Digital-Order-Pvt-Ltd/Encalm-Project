@@ -643,7 +643,7 @@ padding: 4px 0;
                           <div class="box-icon text-center"><img src="<?=base_url()?>assets/image/atithya/Concierge-Services.png" alt="airport concierge services"/> <p class="color-main text-center">Concierge Services</p></div>
                           <div class="box-icon text-center"><img src="<?=base_url()?>assets/image/atithya/Greeting-services.png" alt="meet and greet at airport"/> <p class="color-main text-center">Greeting Services</p></div>
                           <div class="box-icon text-center"><img src="<?=base_url()?>assets/image/atithya/Porter.png" alt="Porter service at airport"/> <p class="color-main text-center">Porter</p></div>
-                          <div class="box-icon text-center"><img src="<?=base_url()?>assets/image/atithya/Lounge_Bay.png" alt="Sofa"/> <p class="color-main text-center">Lounge Accesst</p></div>
+                          <div class="box-icon text-center"><img src="<?=base_url()?>assets/image/atithya/Lounge_Bay.png" alt="Sofa"/> <p class="color-main text-center">Lounge Access</p></div>
                       
                     </div>
           
