@@ -58,7 +58,7 @@
          <li class="nav-item"> <a class="nav-link check-class-2 active" id="arrival-tab" data-toggle="tab" href="#arrival" role="tab" aria-controls="arrival" aria-selected="true"><i class="fas fa-plane-arrival"></i>&nbsp;Arrival</a> </li>
          <li class="nav-item" style="width: 20%;"> <a class="nav-link check-class-2" id="departure-tab" data-toggle="tab" href="#departure" role="tab" aria-controls="departure" aria-selected="false" onclick="HomeActiveTab('Departure')"><i class="fas fa-plane-departure"></i>&nbsp;Departure</a> </li>
          <li class="nav-item"> <a class="nav-link check-class" id="transit-tab" data-toggle="tab" href="#transit" role="tab" aria-controls="transit" aria-selected="false"  onclick="HomeActiveTab('Transit')" ><img src="<?=base_url('atithya_assets/assets/')?>img/transit-01.png">&nbsp;Transit</a> </li>
-         <li class="nav-item"> <a class="nav-link check-class-2" id="lounge-tab" data-toggle="tab" href="#lounge" role="tab" aria-controls="lounge" aria-selected="false"  onclick="HomeActiveTab('Lounge')"><i class="fas fa-couch"></i>&nbsp;Lounge</a> </li>
+         <!-- <li class="nav-item"> <a class="nav-link check-class-2" id="lounge-tab" data-toggle="tab" href="#lounge" role="tab" aria-controls="lounge" aria-selected="false"  onclick="HomeActiveTab('Lounge')"><i class="fas fa-couch"></i>&nbsp;Lounge</a> </li> -->
          <?php
          } else{?>
          <li class="nav-item"> <a class="nav-link check-class2" id="spa-tab" data-toggle="tab" href="#spa" role="tab" aria-controls="spa" aria-selected="false"  onclick="HomeActiveTab('Spa')"><i class="fas fa-spa"></i>&nbsp;Spa</a> </li>

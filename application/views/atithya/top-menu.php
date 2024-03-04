@@ -14,9 +14,9 @@
     <li><a class="nav-link scrollto d-none" href="/#projects">Projects</a></li>
     <li class="dropdown"><a class="nav-link hassubmenu" href="#">Services</a>
       <ul class="submenu">*/ ?>
-        <li><a href="<?=base_url('atithya/services/arrival_new')?>" <?php echo ($this->uri->segment(2)=='arrival')?' class="active"':''; ?>>Arrival</a></li>
-        <li><a href="<?=base_url('atithya/services/departure_new')?>" <?php echo ($this->uri->segment(2)=='departure')?' class="active"':''; ?>>Departure</a></li>
-        <li><a href="<?=base_url('atithya/services/transit_new')?>" <?php echo ($this->uri->segment(2)=='transit')?' class="active"':''; ?>>Transit</a></li>
+        <li><a href="<?=base_url('atithya/services/arrival')?>" <?php echo ($this->uri->segment(2)=='arrival')?' class="active"':''; ?>>Arrival</a></li>
+        <li><a href="<?=base_url('atithya/services/departure')?>" <?php echo ($this->uri->segment(2)=='departure')?' class="active"':''; ?>>Departure</a></li>
+        <li><a href="<?=base_url('atithya/services/transit')?>" <?php echo ($this->uri->segment(2)=='transit')?' class="active"':''; ?>>Transit</a></li>
        <!--li><a href="<?=base_url('atithya/services/lounge')?>" <?php //echo ($this->uri->segment(2)=='lounge')?' class="active"':''; ?>>Lounge</a></li-->
     <li><a class="nav-link scrollto" href="<?=base_url('contact')?>">Contact Us</a></li>
       <?php /*</ul>

@@ -636,10 +636,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
                     <select name="site" id ="homebook" class="form-control">
                         <option>Select Service</option>
-                        <option value="<?=base_url()?>services/encalmlounge"><img src="<?=base_url()?>assets/image/logolounge.png" alt="Encalm airport lounge" title="Lounge Service" style="width: 30px;"> Encalm Lounge</option>
+                        <!-- <option value="<?=base_url()?>services/encalmlounge"><img src="<?=base_url()?>assets/image/logolounge.png" alt="Encalm airport lounge" title="Lounge Service" style="width: 30px;"> Encalm Lounge</option> -->
                         <option value="<?=base_url()?>atithya"><img src="<?=base_url()?>assets/image/Atithya-Logo-Golden.png" alt="Atithya" title="Atithya" style="width: 30px;"> Atithya - Welcome & Assist Service</option>
-                        <option value="<?=base_url()?>spa/home"><img src="<?=base_url()?>assets/image/logolounge.png" alt="Encalm Spa" title="Encalm Spa" style="width: 30px;"> Encalm Spa</option>
-                        <option value="<?=base_url()?>services/enwrap"><img src="<?=base_url()?>assets/image/logolounge.png" alt="Enwrap" title="Enwrap" style="width: 30px;"> Enwrap</option>
+                        <!-- <option value="<?=base_url()?>spa/home"><img src="<?=base_url()?>assets/image/logolounge.png" alt="Encalm Spa" title="Encalm Spa" style="width: 30px;"> Encalm Spa</option>
+                        <option value="<?=base_url()?>services/enwrap"><img src="<?=base_url()?>assets/image/logolounge.png" alt="Enwrap" title="Enwrap" style="width: 30px;"> Enwrap</option> -->
                     </select>
                     
                     <div class="clear"></div>
@@ -886,17 +886,19 @@ A well-trained professional makes sure that the luggage is wrapped as per the gl
 </div>
     <div id="fb-root"></div>
 
-    <!-- <div class="modal fade" id="advBanner" tabindex="-1" role="dialog" aria-labelledby="advBannerTitle"
+    <div class="modal fade" id="advBanner" tabindex="-1" role="dialog" aria-labelledby="advBannerTitle"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-body">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    <a href="<?=base_url()?>location/goa"><img src="<?=base_url()?>assets/image/Atithya-Goa-Pop-Up.jpg" alt="Encalm goa lounge services">
+                    <a href="<?=base_url()?>location/goa">
+                    <!-- <img src="<?=base_url()?>assets/image/Atithya-Goa-Pop-Up.jpg" alt="Encalm goa lounge services"> -->
+                    <img src="<?=base_url()?>assets/image/new_popup.jpg" alt="Encalm goa lounge services">
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 
 
 <?php include('footer.php'); ?>

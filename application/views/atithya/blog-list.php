@@ -1175,7 +1175,7 @@
 
             <div class="col-md-4">
                 <div class="splan mt-4 shadow p-3 mb-5 bg-white rounded">
-                  <p><img class="w-100" style="margin-bottom:5px;" alt="Traveling alone with your child? We can help" src="<?= base_url('') ?>/assets/image/blog_13.jpg" height="325"></p>
+                  <p><img class="w-100" style="margin-bottom:5px;" alt="Traveling alone with your child? We can help" src="<?= base_url('') ?>/assets/image/blog_13.jpg" ></p>
                   <h4 class="mt-3" style="min-height: 86px;"><a href="<?= base_url('') ?>blogs/traveling-alone-with-your-child-we-can-help">Traveling alone with your child? We can help</a></h4>
                   <p class="text-right"><a href="<?= base_url('') ?>blogs/traveling-alone-with-your-child-we-can-help" class="btn btn-primary my-2 px-3 py-1 btn-sm">Read More</a></p>
                 </div>
@@ -1183,7 +1183,7 @@
 
             <div class="col-md-4">
                 <div class="splan mt-4 shadow p-3 mb-5 bg-white rounded">
-                  <p><img class="w-100" style="margin-bottom:5px;" alt="How to turn your transit time into a memorable travel experience" src="<?= base_url('') ?>/assets/image/blog_12.jpg" height="325"></p>
+                  <p><img class="w-100" style="margin-bottom:5px;" alt="How to turn your transit time into a memorable travel experience" src="<?= base_url('') ?>/assets/image/blog_12.jpg" ></p>
                   <h4 class="mt-3" style="min-height: 86px;"><a href="<?= base_url('') ?>blogs/how-to-turn-your-transit-time-into-a-memorable-travel-experience">How to turn your transit time into a memorable travel experience</a></h4>
                   <p class="text-right"><a href="<?= base_url('') ?>blogs/how-to-turn-your-transit-time-into-a-memorable-travel-experience" class="btn btn-primary my-2 px-3 py-1 btn-sm">Read More</a></p>
                 </div>
@@ -1191,7 +1191,7 @@
 
               <div class="col-md-4">
                 <div class="splan mt-4 shadow p-3 mb-5 bg-white rounded">
-                  <p><img class="w-100" style="margin-bottom:5px;" alt="Where Goan hospitality meets luxury travel" src="<?= base_url('') ?>/assets/image/Blog_11.jpeg" height="325"></p>
+                  <p><img class="w-100" style="margin-bottom:5px;" alt="Where Goan hospitality meets luxury travel" src="<?= base_url('') ?>/assets/image/Blog_11.jpeg" ></p>
                   <h4 class="mt-3" style="min-height: 86px;"><a href="<?= base_url('') ?>blogs/Where-Goan-hospitality-meets-luxury-travel">Where Goan hospitality meets luxury travel</a></h4>
                   <p class="text-right"><a href="<?= base_url('') ?>blogs/Where-Goan-hospitality-meets-luxury-travel" class="btn btn-primary my-2 px-3 py-1 btn-sm">Read More</a></p>
                 </div>

@@ -595,11 +595,7 @@ height:65px;
     <!--  </div>-->
     <!--</div>-->
           <p class="text-center text-secondary mt-4">          
-            Premium luggage wrapping service, “EnWrap” from Encalm Hospitality at Delhi and Hyderabad airport. 
-            This allows travellers to ensure that their luggage receives extra care during their journey. 
-            A well-trained professional makes sure that the luggage is wrapped as per the global standards 
-            and the usage of biodegradable material makes this a must have for all your luggage. The service can
-             be availed at the EnWrap kiosk located in the check in halls
+          Premium luggage wrapping service, “EnWrap” from Encalm Hospitality at IGI Airport New Delhi, RGI Airport Hyderabad and Manohar International Airport, Goa. This allows travellers to ensure that their luggage receives extra care during their journey. A well-trained professional makes sure that the luggage is wrapped as per the global standards and the usage of biodegradable material makes this a must have for all your luggage. The service can be availed at the EnWrap kiosk located in the check in halls
         </p>
         </div>
       </div>
@@ -657,6 +653,9 @@ height:65px;
                     </div>
                     <div class="location_para">
                   <p class="text-center color-black"><i class="fa fa-map-marker" aria-hidden="true"></i> RGI Airport, Hyderabad</p>
+                  </div>
+                  <div class="location_para">
+                  <p class="text-center color-black"><i class="fa fa-map-marker" aria-hidden="true"></i>Manohar International Airport, Goa</p>
                   </div>
                   </div>
        

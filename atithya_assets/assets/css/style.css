@@ -1881,6 +1881,8 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 .homesearch {
   display: flex;
   flex-wrap: nowrap;
+  justify-content: space-between;
+
 }
 .homesearch li {
   width: 25%;
