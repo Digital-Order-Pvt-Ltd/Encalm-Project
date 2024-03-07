@@ -677,6 +677,7 @@ include('header.php'); ?>
   .icon-serve img {
     width: 80px;
   }
+  
 
   /*----------------Service Box-------------------*/
   @media screen and (min-width: 937px) and (max-width: 1000px) {
@@ -1116,7 +1117,10 @@ include('header.php'); ?>
     margin-bottom: 4px;
   }
 
-  .location{}
+  .location{ display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap}
   .location nav{}
   .location nav .nav-tabs{
     display: flex;

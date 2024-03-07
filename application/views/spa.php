@@ -577,14 +577,16 @@ height:65px;
       display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap:wrap;
+    gap:20px;
 }
 .location .location_para{
   border: 2px solid #d9ac5e;
          padding: 13px 30px;
          height: 250px;
          min-height: 250px;
+         width:300px;
          overflow: auto;
-          margin: 18px 12px;
           display: flex;
           flex-direction: column;
           align-items: center;

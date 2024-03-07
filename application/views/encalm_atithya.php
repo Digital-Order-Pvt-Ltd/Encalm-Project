@@ -105,6 +105,7 @@ h1, h2, h3, h4, h5, h6, p{font-family:Brandon!important;}
     display: flex;
     justify-content: center;
     padding: 0;
+    flex-wrap:wrap;
 }
 .box-icon {
     width: 14.5%;
@@ -424,6 +425,11 @@ height:65px;
          .close-menu button{position: relative; right: 0; width: 100%; text-align: right; background: #0000; border: 0px; color: #ffffff; padding: 10px 15px 0px; font-size: 20px;}
          .text-primarys{padding: 15px 0px!important;}
     }
+    @media screen and (max-width:767px){
+      .location{
+        flex-direction:column;
+      }
+    }
     @media screen and (min-width: 481px) and (max-width: 936px){
       .border-left{border:0px;}
       .f-36{font-size:20px;}
@@ -521,6 +527,8 @@ height:65px;
       display: flex;
     justify-content: center;
     align-items: center;
+    gap:20px;
+   
 }
 .location .location_para{
   border: 2px solid #d9ac5e;
@@ -528,7 +536,7 @@ height:65px;
     height: 250px;
     min-height: 250px;
     overflow: auto;
-    margin: 18px 12px;
+    width:300px;
     display: flex;
     flex-direction: column;
     justify-content: center;

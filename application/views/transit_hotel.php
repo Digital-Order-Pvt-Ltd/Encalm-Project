@@ -2,15 +2,13 @@
 include('header.php'); ?>
 
 <style>
-  @font-face {
-    font-family: Brandon;
-    src: url(<?= base_url() ?>assets/fonts/Brandon_reg.otf);
+  <blade font|-face%20%7B%0D>font-family: Brandon;
+  src: url(<?= base_url() ?>assets/fonts/Brandon_reg.otf);
 
   }
 
-  @font-face {
-    font-family: Brandon-bld;
-    src: url(<?= base_url() ?>assets/fonts/Brandon_bld.otf);
+  <blade font|-face%20%7B%0D>font-family: Brandon-bld;
+  src: url(<?= base_url() ?>assets/fonts/Brandon_bld.otf);
 
   }
 
@@ -411,14 +409,13 @@ include('header.php'); ?>
   }
 
   /* Go from zero to full opacity */
-  @keyframes fadeEffect {
-    from {
-      opacity: 0;
-    }
+  <blade keyframes|%20fadeEffect%20%7B%0D>from {
+    opacity: 0;
+  }
 
-    to {
-      opacity: 1;
-    }
+  to {
+    opacity: 1;
+  }
   }
 
   /*------------------------------End Tabs----------------------------*/
@@ -714,392 +711,389 @@ include('header.php'); ?>
   }
 
   /*----------------Service Box-------------------*/
-  @media screen and (min-width: 937px) and (max-width: 1000px) {
-    #navArea>ul {
-      position: absolute;
-      background: #152349;
-      width: 100%;
-      display: block;
-      padding-left: 0px;
-      left: -100%;
-      transition: all 0.5s;
-      height: 900px;
-    }
-
-    #navArea>ul li ul {
-      padding-left: 0px;
-    }
-
-    #navArea ul li {
-      display: block;
-      float: none !important;
-    }
-
-    #navArea ul li>ul {
-      position: relative;
-      width: 100% !important;
-      margin-left: 0px !important;
-    }
-
-    #navArea ul.subMenu li a {
-      width: 100%;
-      padding: 1rem 1rem;
-      border-bottom: 1px solid #dedede;
-
-      color: #000000 !important;
-    }
-
-    #navArea.is-sticky>ul>li>a {
-      color: #ffffff !important;
-    }
-
-    #navArea .logo img {
-      width: 7%;
-      height: 42px;
-      position: absolute;
-      left: 20px;
-    }
-
-    .two-logo {
-      position: relative;
-      width: 100%;
-      top: 0;
-    }
-
-    .section-title p {
-      font-size: 1.8rem !important;
-    }
-
-    section {
-      padding: 15px 0 !important;
-    }
-
-    #navArea.is-sticky .logo img {
-      width: 10%;
-      height: 65px;
-    }
-
-    #navArea.is-sticky {
-      height: 90px;
-    }
-
-    .hamburger {
-      display: block;
-    }
-
-    .foo-book {
-      position: relative;
-      width: 100% !important;
-
-    }
-
-    .flip-card {
-      width: 100%;
-    }
-
-    .social-media {
-      position: relative;
-      margin-top: 15px;
-    }
-
-    .close-menu {
-      display: block !important;
-    }
-
-    .close-menu button {
-      position: relative;
-      right: 0;
-      width: 100%;
-      text-align: right;
-      background: #0000;
-      border: 0px;
-      color: #ffffff;
-      padding: 10px 15px 0px;
-      font-size: 20px;
-    }
-
-    .text-primarys {
-      padding: 15px 0px !important;
-    }
+  <blade media|%20screen%20and%20(min-width%3A%20937px)%20and%20(max-width%3A%201000px)%20%7B%0D>#navArea>ul {
+    position: absolute;
+    background: #152349;
+    width: 100%;
+    display: block;
+    padding-left: 0px;
+    left: -100%;
+    transition: all 0.5s;
+    height: 900px;
   }
 
-  @media screen and (min-width: 481px) and (max-width: 936px) {
-    .border-left {
-      border: 0px;
-    }
-
-    .f-36 {
-      font-size: 20px;
-    }
-
-    .tabcontent {
-      height: 320px
-    }
-
-    #navArea>ul {
-      position: absolute;
-      background: #152349;
-      width: 100%;
-      display: block;
-      padding-left: 0px;
-      left: -100%;
-      transition: all 0.5s;
-      height: 900px;
-    }
-
-    #navArea>ul li ul {
-      padding-left: 0px;
-    }
-
-    #navArea ul li {
-      display: block;
-      float: none !important;
-    }
-
-    #navArea ul li>ul {
-      position: relative;
-      width: 100% !important;
-      margin-left: 0px !important;
-    }
-
-    #navArea ul.subMenu li a {
-      width: 100%;
-      padding: 1rem 1rem;
-      border-bottom: 1px solid #dedede;
-
-      color: #000000 !important;
-    }
-
-    #navArea.is-sticky>ul>li>a {
-      color: #ffffff !important;
-    }
-
-    #navArea .logo img {
-      width: 7%;
-      height: 42px;
-      position: absolute;
-      left: 20px;
-    }
-
-    .two-logo {
-      position: relative;
-      width: 100%;
-      top: 0;
-    }
-
-    .section-title p {
-      font-size: 1.8rem !important;
-    }
-
-    section {
-      padding: 15px 0 !important;
-    }
-
-    #navArea.is-sticky .logo img {
-      width: 10%;
-      height: 65px;
-    }
-
-    #navArea.is-sticky {
-      height: 90px;
-    }
-
-    .hamburger {
-      display: block;
-    }
-
-    .foo-book {
-      position: relative;
-      width: 100% !important;
-
-    }
-
-    .flip-card {
-      width: 100%;
-    }
-
-    .social-media {
-      position: relative;
-      margin-top: 15px;
-    }
-
-    .close-menu {
-      display: block !important;
-    }
-
-    .close-menu button {
-      position: relative;
-      right: 0;
-      width: 100%;
-      text-align: right;
-      background: #0000;
-      border: 0px;
-      color: #ffffff;
-      padding: 10px 15px 0px;
-      font-size: 20px;
-    }
-
-    .text-primarys {
-      padding: 15px 0px !important;
-    }
+  #navArea>ul li ul {
+    padding-left: 0px;
   }
 
-  @media screen and (min-width: 320px) and (max-width: 480px) {
-    .blacks-box {
-      background: #000000de;
-      position: fixed;
-      top: 20px;
-      width: 166px;
-      z-index: 999999;
-      left: 32%;
-    }
+  #navArea ul li {
+    display: block;
+    float: none !important;
+  }
 
-    .box-icon {
-      width: 45.9%;
-      padding: 4px;
-      float: left;
+  #navArea ul li>ul {
+    position: relative;
+    width: 100% !important;
+    margin-left: 0px !important;
+  }
 
-      margin-right: 12px;
-      height: 130px;
-      margin-bottom: 15px;
-    }
+  #navArea ul.subMenu li a {
+    width: 100%;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #dedede;
 
-    .icon-serve {
-      padding-left: 15px;
-    }
+    color: #000000 !important;
+  }
 
-    #navArea {
-      height: 90px;
-    }
+  #navArea.is-sticky>ul>li>a {
+    color: #ffffff !important;
+  }
 
-    .mr-top-136 {
-      margin-top: 70px !important;
-    }
+  #navArea .logo img {
+    width: 7%;
+    height: 42px;
+    position: absolute;
+    left: 20px;
+  }
 
-    .f-36 {
-      font-size: 20px;
-    }
+  .two-logo {
+    position: relative;
+    width: 100%;
+    top: 0;
+  }
 
-    .border-left {
-      border: 0px;
-    }
+  .section-title p {
+    font-size: 1.8rem !important;
+  }
 
-    .tabcontent {
-      height: 320px
-    }
+  section {
+    padding: 15px 0 !important;
+  }
 
-    #navArea>ul {
-      position: absolute;
-      background: #152349;
-      width: 100%;
-      display: block;
-      padding-left: 0px;
-      left: -100%;
-      transition: all 0.5s;
-      height: 900px;
-    }
+  #navArea.is-sticky .logo img {
+    width: 10%;
+    height: 65px;
+  }
 
-    #navArea>ul li ul {
-      padding-left: 0px;
-    }
+  #navArea.is-sticky {
+    height: 90px;
+  }
 
-    #navArea ul li {
-      display: block;
-      float: none !important;
-    }
+  .hamburger {
+    display: block;
+  }
 
-    #navArea ul li>ul {
-      position: relative;
-      width: 100% !important;
-      margin-left: 0px !important;
-    }
+  .foo-book {
+    position: relative;
+    width: 100% !important;
 
-    #navArea ul.subMenu li a {
-      width: 100%;
-      padding: 1rem 1rem;
-      border-bottom: 1px solid #dedede;
+  }
 
-      color: #000000 !important;
-    }
+  .flip-card {
+    width: 100%;
+  }
 
-    #navArea>ul>li>a {
-      color: #ffffff !important;
-    }
+  .social-media {
+    position: relative;
+    margin-top: 15px;
+  }
 
-    #navArea.is-sticky>ul>li>a {
-      color: #ffffff !important;
-    }
+  .close-menu {
+    display: block !important;
+  }
 
-    #navArea .logo img {
-      width: 20%;
-      height: 65px;
-      position: absolute;
-      left: 20px;
-    }
+  .close-menu button {
+    position: relative;
+    right: 0;
+    width: 100%;
+    text-align: right;
+    background: #0000;
+    border: 0px;
+    color: #ffffff;
+    padding: 10px 15px 0px;
+    font-size: 20px;
+  }
 
-    .two-logo {
-      position: relative;
-      width: 100%;
-      top: 0;
-    }
+  .text-primarys {
+    padding: 15px 0px !important;
+  }
+  }
 
-    .section-title p {
-      font-size: 1.8rem !important;
-    }
+  <blade media|%20screen%20and%20(min-width%3A%20481px)%20and%20(max-width%3A%20936px)%20%7B%0D>.border-left {
+    border: 0px;
+  }
 
-    section {
-      padding: 15px 0 !important;
-    }
+  .f-36 {
+    font-size: 20px;
+  }
 
-    #navArea.is-sticky .logo img {
-      width: 20%;
-      height: 65px;
-    }
+  .tabcontent {
+    height: 320px
+  }
 
-    #navArea.is-sticky {
-      height: 90px;
-    }
+  #navArea>ul {
+    position: absolute;
+    background: #152349;
+    width: 100%;
+    display: block;
+    padding-left: 0px;
+    left: -100%;
+    transition: all 0.5s;
+    height: 900px;
+  }
 
-    .hamburger {
-      display: block;
-    }
+  #navArea>ul li ul {
+    padding-left: 0px;
+  }
 
-    .foo-book {
-      position: relative;
-      width: 100% !important;
-      top: 0px;
+  #navArea ul li {
+    display: block;
+    float: none !important;
+  }
 
-      z-index: 9999;
-    }
+  #navArea ul li>ul {
+    position: relative;
+    width: 100% !important;
+    margin-left: 0px !important;
+  }
 
-    .flip-card {
-      width: 350px;
-    }
+  #navArea ul.subMenu li a {
+    width: 100%;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #dedede;
 
-    .social-media {
-      position: relative;
-      margin-top: 15px;
-    }
+    color: #000000 !important;
+  }
 
-    .close-menu {
-      display: block !important;
-    }
+  #navArea.is-sticky>ul>li>a {
+    color: #ffffff !important;
+  }
 
-    .close-menu button {
-      position: relative;
-      right: 0;
-      width: 100%;
-      text-align: right;
-      background: #0000;
-      border: 0px;
-      color: #ffffff;
-      padding: 10px 15px 0px;
-      font-size: 20px;
-    }
+  #navArea .logo img {
+    width: 7%;
+    height: 42px;
+    position: absolute;
+    left: 20px;
+  }
 
-    .text-primarys {
-      padding: 15px 0px !important;
-    }
+  .two-logo {
+    position: relative;
+    width: 100%;
+    top: 0;
+  }
+
+  .section-title p {
+    font-size: 1.8rem !important;
+  }
+
+  section {
+    padding: 15px 0 !important;
+  }
+
+  #navArea.is-sticky .logo img {
+    width: 10%;
+    height: 65px;
+  }
+
+  #navArea.is-sticky {
+    height: 90px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .foo-book {
+    position: relative;
+    width: 100% !important;
+
+  }
+
+  .flip-card {
+    width: 100%;
+  }
+
+  .social-media {
+    position: relative;
+    margin-top: 15px;
+  }
+
+  .close-menu {
+    display: block !important;
+  }
+
+  .close-menu button {
+    position: relative;
+    right: 0;
+    width: 100%;
+    text-align: right;
+    background: #0000;
+    border: 0px;
+    color: #ffffff;
+    padding: 10px 15px 0px;
+    font-size: 20px;
+  }
+
+  .text-primarys {
+    padding: 15px 0px !important;
+  }
+  }
+
+  <blade media|%20screen%20and%20(min-width%3A%20320px)%20and%20(max-width%3A%20480px)%20%7B%0D>.blacks-box {
+    background: #000000de;
+    position: fixed;
+    top: 20px;
+    width: 166px;
+    z-index: 999999;
+    left: 32%;
+  }
+
+  .box-icon {
+    width: 45.9%;
+    padding: 4px;
+    float: left;
+
+    margin-right: 12px;
+    height: 130px;
+    margin-bottom: 15px;
+  }
+
+  .icon-serve {
+    padding-left: 15px;
+  }
+
+  #navArea {
+    height: 90px;
+  }
+
+  .mr-top-136 {
+    margin-top: 70px !important;
+  }
+
+  .f-36 {
+    font-size: 20px;
+  }
+
+  .border-left {
+    border: 0px;
+  }
+
+  .tabcontent {
+    height: 320px
+  }
+
+  #navArea>ul {
+    position: absolute;
+    background: #152349;
+    width: 100%;
+    display: block;
+    padding-left: 0px;
+    left: -100%;
+    transition: all 0.5s;
+    height: 900px;
+  }
+
+  #navArea>ul li ul {
+    padding-left: 0px;
+  }
+
+  #navArea ul li {
+    display: block;
+    float: none !important;
+  }
+
+  #navArea ul li>ul {
+    position: relative;
+    width: 100% !important;
+    margin-left: 0px !important;
+  }
+
+  #navArea ul.subMenu li a {
+    width: 100%;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #dedede;
+
+    color: #000000 !important;
+  }
+
+  #navArea>ul>li>a {
+    color: #ffffff !important;
+  }
+
+  #navArea.is-sticky>ul>li>a {
+    color: #ffffff !important;
+  }
+
+  #navArea .logo img {
+    width: 20%;
+    height: 65px;
+    position: absolute;
+    left: 20px;
+  }
+
+  .two-logo {
+    position: relative;
+    width: 100%;
+    top: 0;
+  }
+
+  .section-title p {
+    font-size: 1.8rem !important;
+  }
+
+  section {
+    padding: 15px 0 !important;
+  }
+
+  #navArea.is-sticky .logo img {
+    width: 20%;
+    height: 65px;
+  }
+
+  #navArea.is-sticky {
+    height: 90px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .foo-book {
+    position: relative;
+    width: 100% !important;
+    top: 0px;
+
+    z-index: 9999;
+  }
+
+  .flip-card {
+    width: 350px;
+  }
+
+  .social-media {
+    position: relative;
+    margin-top: 15px;
+  }
+
+  .close-menu {
+    display: block !important;
+  }
+
+  .close-menu button {
+    position: relative;
+    right: 0;
+    width: 100%;
+    text-align: right;
+    background: #0000;
+    border: 0px;
+    color: #ffffff;
+    padding: 10px 15px 0px;
+    font-size: 20px;
+  }
+
+  .text-primarys {
+    padding: 15px 0px !important;
+  }
   }
 
   .error {
@@ -1188,7 +1182,8 @@ include('header.php'); ?>
           <div class="section-title text-center">
             <!--<h2>About</h2>
             <p class="mr-top-136"><img src="<?= base_url() ?>assets/image/businesscentre.jpg" alt="Business Centre" title="Business Centre" style="max-width: 100%;"></p>-->
-            <p class="mr-top-136"><img src="<?= base_url() ?>assets/image/encalm_transit.png" style="max-width: 90%; width: 200px;"></p><br /><br />
+            <p class="mr-top-136"><img src="<?= base_url() ?>assets/image/encalm_transit.png"
+                style="max-width: 90%; width: 200px;"></p><br /><br />
             <!--p class="my-5"><img src="<?= base_url() ?>assets/image/transit_header.jpg" style="max-width: 90%;"></p-->
           </div>
           <!--           <div class="row">-->
@@ -1200,23 +1195,30 @@ include('header.php'); ?>
           <!--  </div>-->
           <!--</div>-->
           <h3 class="text-center">Your transit just got a whole lot better.</h3>
-          <p class="text-center text-secondary mt-4">Welcome to Transit by Encalm where we redefine airport stays, offering a fusion of style,<br>
+          <p class="text-center text-secondary mt-4">Welcome to Transit by Encalm where we redefine airport stays,
+            offering a fusion of style,<br>
 
             convenience, and hospitality in every moment of your journey.</p>
-          <p class="color-black">Located at Hyderabad&#39;s Rajiv Gandhi International Airport (RGIA) in Shamshabad, Transit by Encalm
+          <p class="color-black">Located at Hyderabad&#39;s Rajiv Gandhi International Airport (RGIA) in Shamshabad,
+            Transit by Encalm
             promises not just a place to rest but and experience to cherish. Our latest venture into airport
-            hospitality offers unparalleled accessibility and comfort for travellers seeking a relaxing stay during their
+            hospitality offers unparalleled accessibility and comfort for travellers seeking a relaxing stay during
+            their
             transit.</p>
           <p class="mt-3 mb-0">At Transit by Encalm, we offer:</p>
-          <p class="color-black"><strong>Premier Accommodation:</strong> Choose from our curated selection of 70 rooms across various categories,
+          <p class="color-black"><strong>Premier Accommodation:</strong> Choose from our curated selection of 70 rooms
+            across various categories,
             each crafted to cater to the diverse needs of our guests. From Deluxe and Premier King Rooms to
             Executive Suites and specially abled accommodations, your comfort is our priority.</p>
-          <p class="color-black"><strong>Encalm Spa:</strong> Our Encalm Spa awaits, featuring three therapy rooms dedicated to providing relaxation
+          <p class="color-black"><strong>Encalm Spa:</strong> Our Encalm Spa awaits, featuring three therapy rooms
+            dedicated to providing relaxation
             through tailored treatments, including Back, Neck &amp; Shoulder Massages and Foot Massages.</p>
-          <p class="color-black"><strong>Enroute Café:</strong> With a capacity for 72 covers and operating 24 hours, our café tantalises your taste buds
+          <p class="color-black"><strong>Enroute Café:</strong> With a capacity for 72 covers and operating 24 hours,
+            our café tantalises your taste buds
             with a blend of Western, Indian, and Oriental cuisines, ensuring a delightful culinary journey throughout
             your stay, no matter the time of the day.</p>
-          <p class="color-black"><strong>Impeccable In-Room Facilities:</strong> Whether it&#39;s the convenience of guest laundry, fitness centre access, or
+          <p class="color-black"><strong>Impeccable In-Room Facilities:</strong> Whether it&#39;s the convenience of
+            guest laundry, fitness centre access, or
             the comfort of walk-in showers, every amenity has been thoughtfully included in our rooms to make
             your stay effortless.</p>
           <!-- <p class="mt-3 mb-0 color-black">Here is the list of in-room facilities: (to be showcased as icons)</p>
@@ -1251,10 +1253,12 @@ include('header.php'); ?>
         </div>
 
         <div class="icon-serve icon-serve2">
-          <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/emergency-call.png" alt="Emergency Call">
+          <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/emergency-call.png"
+              alt="Emergency Call">
             <p class="color-main text-center">Emergency Call</p>
           </div>
-          <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/coffee-maker.png" alt="Coffee Maker">
+          <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/coffee-maker.png"
+              alt="Coffee Maker">
             <p class="color-main text-center">Coffee Maker</p>
           </div>
           <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/laundry.png" alt="Laundry">
@@ -1275,7 +1279,8 @@ include('header.php'); ?>
           <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/dumbbell.png" alt="spa">
             <p class="color-main text-center">Dumbbell</p>
           </div>
-          <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/Concierge-Services.png" alt="Concierge Services">
+          <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/Concierge-Services.png"
+              alt="Concierge Services">
             <p class="color-main text-center">Concierge Services</p>
           </div>
 
@@ -1300,13 +1305,18 @@ include('header.php'); ?>
           <div class="">
 
             <h5 class="color-main text-center">Shamshabad</h5>
-            <p class="text-center color-black mb-1"><i class="fa fa-map-marker" aria-hidden="true"></i> Level D Arrivals beside Café Nilofer, RGIA, Shamshabad</p>
+            <p class="text-center color-black mb-1"><i class="fa fa-map-marker" aria-hidden="true"></i> Level D Arrivals
+              beside Café Nilofer, RGIA, Shamshabad</p>
             <p class="text-center color-black mt-1 mb-0">Distance from key locations:</p>
             <p class="text-center color-black mb-1"><strong>Charminar:</strong> 15 km (approx. 40 minutes)</p>
-            <p class="text-center color-black mb-1"><strong>Secunderabad Railway Station:</strong> 35 km (approx. 1 hour)</p>
-            <p class="text-center color-black mb-1"><strong>Mahatma Gandhi Bus Stand:</strong> 25 km (approx. 45 minutes)</p>
-            <p class="text-center color-black mb-1"><i class="fa fa-envelope color-blue" aria-hidden="true"></i> reservations@transitbyencalm.com </p>
-            <p class="text-center color-black mb-1"><i class="fa fa-phone color-blue" aria-hidden="true"></i> <a class="color-black" href="tel:+919289472139">+91 9289366950</a></p>
+            <p class="text-center color-black mb-1"><strong>Secunderabad Railway Station:</strong> 35 km (approx. 1
+              hour)</p>
+            <p class="text-center color-black mb-1"><strong>Mahatma Gandhi Bus Stand:</strong> 25 km (approx. 45
+              minutes)</p>
+            <p class="text-center color-black mb-1"><i class="fa fa-envelope color-blue" aria-hidden="true"></i>
+              reservations@transitbyencalm.com </p>
+            <p class="text-center color-black mb-1"><i class="fa fa-phone color-blue" aria-hidden="true"></i> <a
+                class="color-black" href="tel:+919289472139">+91 9289366950</a></p>
           </div>
         </div>
       </div>
@@ -1331,17 +1341,20 @@ of amenities and services to make your stay seamless and relaxing.</p> -->
             <div class="row">
               <div class="form-group col-md-6 mt-2">
                 <label class="floating-label values mb-1 label2">Room Category</label>
-                <select name="contact_name" id="contact_name" class="form-control form-select custom-form custom-form2 shadow" required>
+                <select name="contact_name" id="contact_name"
+                  class="form-control form-select custom-form custom-form2 shadow" required>
                   <option value="">DELUXE KING ROOM</option>
                   <option value="3">PREMIER KING ROOM</option>
                   <option value="6">PREMIER TWIN ROOM</option>
                   <option value="9">EXECUTIVE SUITE</option>
-                  <option value="9">SPECIALLY ABLEDROOM</option>
+                  <option value="12">EXECUTIVE SUITE EXTRA BED</option>
+                  <option value="15">SPECIALLY ABLEDROOM</option>
                 </select>
               </div>
               <div class="form-group col-md-6 mt-2">
                 <label class="floating-label values mb-1 label2">No. of Hours</label>
-                <select name="no_of_hrs" id="no_of_hrs" class="form-control form-select custom-form custom-form2 shadow" required>
+                <select name="no_of_hrs" id="no_of_hrs" class="form-control form-select custom-form custom-form2 shadow"
+                  required>
                   <option value="">Select</option>
                   <option value="3">3 Hour</option>
                   <option value="6">6 Hours</option>
@@ -1356,11 +1369,13 @@ of amenities and services to make your stay seamless and relaxing.</p> -->
                   <div class="form-group col-md-6 mt-2 dtpicker">
                     <label class="floating-label values mb-1 label2">From</label>
 
-                    <input type="text" class="form-control  custom-form custom-form2 shadow datepicker" id="from_date" name="booking_from_date" placeholder="" data-gtm-form-interact-field-id="0" required>
+                    <input type="text" class="form-control  custom-form custom-form2 shadow datepicker" id="from_date"
+                      name="booking_from_date" placeholder="" data-gtm-form-interact-field-id="0" required>
                   </div>
                   <div class="form-group col-md-6 mt-2 dtpicker">
                     <label class="floating-label values mb-1 label2">To</label>
-                    <input type="text" class="form-control custom-form custom-form2 shadow datepicker" id="to_date" name="booking_to_date" placeholder="" data-gtm-form-interact-field-id="0" required>
+                    <input type="text" class="form-control custom-form custom-form2 shadow datepicker" id="to_date"
+                      name="booking_to_date" placeholder="" data-gtm-form-interact-field-id="0" required>
                   </div>
                 </div>
               </div>
@@ -1371,7 +1386,8 @@ of amenities and services to make your stay seamless and relaxing.</p> -->
 
                   <div class="form-group col-md-4 mt-2">
                     <label class="floating-label values mb-1 label2">Adult</label>
-                    <select name="adult" id="adult" class="form-control form-select shadow custom-form custom-form2" required>
+                    <select name="adult" id="adult" class="form-control form-select shadow custom-form custom-form2"
+                      required>
                       <option value="">Select</option>
                       <option value="1">1</option>
                       <option value="2">2</option>
@@ -1383,7 +1399,7 @@ of amenities and services to make your stay seamless and relaxing.</p> -->
                     <select name="child" id="child" class="form-control form-select shadow custom-form custom-form2">
                       <option value="">Select</option>
                       <option value="1">1</option>
-
+                      <option value="2" id="child_option" style="display: none;">2</option>
                     </select>
                   </div>
 
@@ -1392,28 +1408,32 @@ of amenities and services to make your stay seamless and relaxing.</p> -->
                     <select name="infant" id="infant" class="form-control form-select shadow custom-form custom-form2">
                       <option value="">Select</option>
                       <option value="1">1</option>
-
+                      <option value="2" id="infant_option" style="display: none;">2</option>
                     </select>
                   </div>
                 </div>
               </div>
               <div class="form-group col-md-6 mt-2">
                 <label class="floating-label values mb-1 label2">First Name (Guest)</label>
-                <input type="text" class="form-control shadow custom-form custom-form2" id="contact_first_name" name="contact_first_name" placeholder="" data-gtm-form-interact-field-id="0" required>
+                <input type="text" class="form-control shadow custom-form custom-form2" id="contact_first_name"
+                  name="contact_first_name" placeholder="" data-gtm-form-interact-field-id="0" required>
               </div>
               <div class="form-group col-md-6 mt-2">
                 <label class="floating-label values mb-1 label2">Last Name (Guest)</label>
-                <input type="text" class="form-control shadow custom-form custom-form2" id="contact_last_name" name="contact_last_name" placeholder="" data-gtm-form-interact-field-id="0" required>
+                <input type="text" class="form-control shadow custom-form custom-form2" id="contact_last_name"
+                  name="contact_last_name" placeholder="" data-gtm-form-interact-field-id="0" required>
               </div>
               <div class="form-group col-md-6 mt-2">
                 <label class="floating-label values mb-1 label2">Passport No</label>
-                <input type="text" class="form-select shadow custom-form custom-form2" id="passport" name="passport" placeholder="" data-gtm-form-interact-field-id="0" required>
+                <input type="text" class="form-select shadow custom-form custom-form2" id="passport" name="passport"
+                  placeholder="" data-gtm-form-interact-field-id="0" required>
               </div>
               <div class="form-group col-md-2 mt-2">
                 <label class="floating-label values mb-1 label2">Country Code</label>
 
-                <select name="country" id="country-code" class="form-control shadow form-select custom-form custom-form2">
-                 <option data-countryCode="IN" value="91">India (+91)</option>
+                <select name="country" id="country-code"
+                  class="form-control shadow form-select custom-form custom-form2">
+                  <option data-countryCode="IN" value="91">India (+91)</option>
                   <option data-countryCode="US" value="1">UK (+44)</option>
                   <optgroup label="Other countries">
                     <option data-countryCode="DZ" value="213">Algeria (+213)</option>
@@ -1636,14 +1656,16 @@ of amenities and services to make your stay seamless and relaxing.</p> -->
               </div>
               <div class="form-group col-md-4 mt-2">
                 <label class="floating-label values mb-1 label2">Contact Number</label>
-                <input type="text" class="form-control shadow custom-form custom-form2 phone" id="mobile" name="mobile" placeholder="" data-gtm-form-interact-field-id="0" required>
+                <input type="text" class="form-control shadow custom-form custom-form2 phone" id="mobile" name="mobile"
+                  placeholder="" data-gtm-form-interact-field-id="0" required>
 
 
 
               </div>
               <div class="form-group col-md-6 mt-2">
                 <label class="floating-label values mb-1 label2">Email ID</label>
-                <input type="text" class="form-control shadow custom-form custom-form2" id="email_from" name="email_from" placeholder="" data-gtm-form-interact-field-id="0" required>
+                <input type="text" class="form-control shadow custom-form custom-form2" id="email_from"
+                  name="email_from" placeholder="" data-gtm-form-interact-field-id="0" required>
               </div>
 
 
@@ -1671,15 +1693,18 @@ of amenities and services to make your stay seamless and relaxing.</p> -->
               </div>
               <div class="form-group col-md-6 mt-2">
                 <label class="floating-label values mb-1 label2">Pincode</label>
-                <input type="text" class="form-control shadow custom-form custom-form2" id="email_from" name="email_from" placeholder="" data-gtm-form-interact-field-id="0" required>
+                <input type="text" class="form-control shadow custom-form custom-form2" id="email_from"
+                  name="email_from" placeholder="" data-gtm-form-interact-field-id="0" required>
               </div>
               <div class="form-group col-md-6 mt-2">
                 <label class="floating-label values mb-1 label2">Billing Address</label>
-                <textarea rows="2" class="form-control shadow custom-form custom-form2" id="address" name="address" placeholder="" data-gtm-form-interact-field-id="0" required></textarea>
+                <textarea rows="2" class="form-control shadow custom-form custom-form2" id="address" name="address"
+                  placeholder="" data-gtm-form-interact-field-id="0" required></textarea>
               </div>
               <div class="form-group col-md-12">
                 <br />
-                <button type="submit" id="submitbookform" name="submit" class="submit-button btn btn-primary mt-2"> Book Now</button>
+                <button type="submit" id="submitbookform" name="submit" class="submit-button btn btn-primary mt-2"> Book
+                  Now</button>
               </div>
 
               <!-- <div class="form-group col-md-12">
@@ -1694,92 +1719,113 @@ of amenities and services to make your stay seamless and relaxing.</p> -->
                 <p class="mt-3 mb-0 color-black">*** Breakfast is included only in 1 night plan</p>
               </div> -->
               <div class="form-group col-md-12">
-              <div class="col-md-12">
-          <h5 class="color-main text-center f-36">Terms and Conditions</h5>
-        </div>
+                <div class="col-md-12">
+                  <h5 class="color-main text-center f-36">Terms and Conditions</h5>
+                </div>
                 <ul>
                   <li>We have a 24 hour check-in/ check-out time .</li>
-                  <li>Transit by Encalm provides accommodation and additional lounge services for passengers arriving/departing/transiting from Rajiv Gandhi International Airport, Hyderabad.</li>
+                  <li>Transit by Encalm provides accommodation and additional lounge services for passengers
+                    arriving/departing/transiting from Rajiv Gandhi International Airport, Hyderabad.</li>
                   <li>Accurate Card Details are mandatory, for confirmation of services.</li>
-                  <li>Passengers can access the Transit lounge with their luggage after scanning procedures as per airport security rules & regulations.</li>
-                  <li>Guests can exit and re-enter the facility after check-in to the transit lounge. Valid passport / ID proof with Lounge’s confirmation card is required.</li>
+                  <li>Passengers can access the Transit lounge with their luggage after scanning procedures as per
+                    airport security rules & regulations.</li>
+                  <li>Guests can exit and re-enter the facility after check-in to the transit lounge. Valid passport /
+                    ID proof with Lounge’s confirmation card is required.</li>
                   <li>For Foreign nationals a valid Indian Visa is required to access the transit lounge.</li>
-                  <li>Maximum 1 child up to 11 years can stay with two adults when sharing existing bedding with applicable tariff for infant and children.</li>
-                  <li>Extra bedding for more than 3 total guests (adult+ child) upto 4 guests can be accommodated only in Suite category room.</li>
+                  <li>Maximum 1 child up to 11 years can stay with two adults when sharing existing bedding with
+                    applicable tariff for infant and children.</li>
+                  <li>Extra bedding for more than 3 total guests (adult+ child) upto 4 guests can be accommodated only
+                    in Suite category room.</li>
                   <li>Breakfast is included in 1 night plan only.</li>
-                  <li>Restricted & prohibited goods as per airport security norms will not be allowed in the transit lounge.</li>
-                  <li>All areas within the transit lounge have been identified as Non-smoking areas. If a smoking violation occurs in the room and premises, the guest will be charged INR 5000/- per violation as a sanitization fee.</li>
-                  <li>All the guests checking-in are requested to produce a valid Govt. approved photo ID at check-in. For Resident Indians: Driver’s License, Voters ID, Aadhaar Card or Passport (As per Govt. regulations we do not accept PAN card as an ID proof) For Foreigners and Non-Resident Indians: Passport & Visa/PIO Card/ OCI Card (Mandatory).</li>
+                  <li>Restricted & prohibited goods as per airport security norms will not be allowed in the transit
+                    lounge.</li>
+                  <li>All areas within the transit lounge have been identified as Non-smoking areas. If a smoking
+                    violation occurs in the room and premises, the guest will be charged INR 5000/- per violation as a
+                    sanitization fee.</li>
+                  <li>All the guests checking-in are requested to produce a valid Govt. approved photo ID at check-in.
+                    For Resident Indians: Driver’s License, Voters ID, Aadhaar Card or Passport (As per Govt.
+                    regulations we do not accept PAN card as an ID proof) For Foreigners and Non-Resident Indians:
+                    Passport & Visa/PIO Card/ OCI Card (Mandatory).</li>
                   <li>Pets are not allowed</li>
-                  <li>Special requests, flight information, amendments, cancellation in reservations shall be directed to our Reservations Office.</li>
+                  <li>Special requests, flight information, amendments, cancellation in reservations shall be directed
+                    to our Reservations Office.</li>
                   <li>You can contact us on +91 9289366950 / XXXXXX, E-mail: reservations@transitbyencalm.com</li>
                   <p class="mt-3 mb-0 color-black"><b>Cancellation Policy/ Rescheduling Policy:</b></p>
-                <table class="table table-bordered">
-                  <thead>
-                    <tr>
-                      <th>Reschedule of Service</th>
-                      <th>Charges</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>More than 24 hours prior to service time</td>
-                      <td>No rescheduling charges (One time free)</td>
-                    </tr>
-                    <tr>
-                      <td>Within 12- 24 hours to service time</td>
-                      <td>INR 650 (AI) per booking</td>
-                    </tr>
-                    <tr>
-                      <td>Within 0-12 hours of service time</td>
-                      <td>100% of the booking amount</td>
-                    </tr>
-               
+                  <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th>Reschedule of Service</th>
+                        <th>Charges</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>More than 24 hours prior to service time</td>
+                        <td>No rescheduling charges (One time free)</td>
+                      </tr>
+                      <tr>
+                        <td>Within 12- 24 hours to service time</td>
+                        <td>INR 650 (AI) per booking</td>
+                      </tr>
+                      <tr>
+                        <td>Within 0-12 hours of service time</td>
+                        <td>100% of the booking amount</td>
+                      </tr>
 
-                  </tbody>
-                </table>
-                <table class="table table-bordered">
-                  <thead>
-                    <tr>
-                      <th>Cancellation of Service</th>
-                      <th>Charges</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Less than 24 hours prior to the service time</td>
-                      <td>100% of the Booking Amount</td>
-                    </tr>
-                    <tr>
-                      <td>Between 24 to 48 hours prior to the service time</td>
-                      <td>30% of the Booking Amount</td>
-                    </tr>
-               
 
-                  </tbody>
-                </table>
-                <li>For the purpose of calculating cancellation charges, Booking Amount shall mean the total amount (Including taxes) paid by the Agent.</li>
-                <li>Bank charges would be applicable for all cancellation requests received 48 hours prior to service time.</li>
-                <li>Encalm shall endeavor to process a refund if applicable, within 15 days from the date of cancellation and receipt of bank/credit card details</li>
-                <li>All rescheduling requests need to be received at least 12 hours prior to service time for it to be considered as a valid request. All rescheduling requests shall be subject to availability.</li>
-                <li>No refund will be made in case of the following</li>
+                    </tbody>
+                  </table>
+                  <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th>Cancellation of Service</th>
+                        <th>Charges</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Less than 24 hours prior to the service time</td>
+                        <td>100% of the Booking Amount</td>
+                      </tr>
+                      <tr>
+                        <td>Between 24 to 48 hours prior to the service time</td>
+                        <td>30% of the Booking Amount</td>
+                      </tr>
+
+
+                    </tbody>
+                  </table>
+                  <li>For the purpose of calculating cancellation charges, Booking Amount shall mean the total amount
+                    (Including taxes) paid by the Agent.</li>
+                  <li>Bank charges would be applicable for all cancellation requests received 48 hours prior to service
+                    time.</li>
+                  <li>Encalm shall endeavor to process a refund if applicable, within 15 days from the date of
+                    cancellation and receipt of bank/credit card details</li>
+                  <li>All rescheduling requests need to be received at least 12 hours prior to service time for it to be
+                    considered as a valid request. All rescheduling requests shall be subject to availability.</li>
+                  <li>No refund will be made in case of the following</li>
                 </ul>
-             
-                <p class="mt-3 mb-0 color-black">-Wrong information about travel details of Guest(s) during the Booking Process.</p>
-                <p class="mt-3 mb-0 color-black">-No Shows- If the passenger does not arrive at the meeting point within 30 minutes from the agreed arrival time.</p>
-                <p class="mt-3 mb-0 color-black">-In case of any misconduct or any unlawful or prohibited activity by the Agent/Guest(s);</p>
-                <p class="mt-3 mb-0 color-black">-In case Agent has availed promotions offer or discounts or cash back etc. during booking.</p>
+
+                <p class="mt-3 mb-0 color-black">-Wrong information about travel details of Guest(s) during the Booking
+                  Process.</p>
+                <p class="mt-3 mb-0 color-black">-No Shows- If the passenger does not arrive at the meeting point within
+                  30 minutes from the agreed arrival time.</p>
+                <p class="mt-3 mb-0 color-black">-In case of any misconduct or any unlawful or prohibited activity by
+                  the Agent/Guest(s);</p>
+                <p class="mt-3 mb-0 color-black">-In case Agent has availed promotions offer or discounts or cash back
+                  etc. during booking.</p>
               </div>
 
 
               <div class="clearfix"></div>
               <div class="col-md-12">
-          <p class="mt-3 mb-0 color-black"><b>Kindly incorporate the below age group under Adult, Child, Infant</b></p>
-          <p class="mt-3 mb-0 color-black">The age group would be as follows:</p>
-          <p class="mt-3 mb-0 color-black">Infant: Under 6 years : <span>Comp</span></p>
-          <p class="mt-3 mb-0 color-black">Child:    6-11 years  : <span>Child Rate at 30% of Adult Rate</span></p>
-          <p class="mt-3 mb-0 color-black">Adult: <span> 11 years and above</span> </p>
-        </div>
+                <p class="mt-3 mb-0 color-black"><b>Kindly incorporate the below age group under Adult, Child,
+                    Infant</b></p>
+                <p class="mt-3 mb-0 color-black">The age group would be as follows:</p>
+                <p class="mt-3 mb-0 color-black">Infant: Under 6 years : <span>Comp</span></p>
+                <p class="mt-3 mb-0 color-black">Child: 6-11 years : <span>Child Rate at 30% of Adult Rate</span></p>
+                <p class="mt-3 mb-0 color-black">Adult: <span> 11 years and above</span> </p>
+              </div>
               <div class="clearfix"></div>
             </div>
           </form>
@@ -1800,7 +1846,7 @@ of amenities and services to make your stay seamless and relaxing.</p> -->
   </div>
   <?php include('footer.php'); ?>
   <script type="text/javascript">
-    $(window).scroll(function() {
+    $(window).scroll(function () {
       var sticky = $('#book_now'),
         scroll = $(window).scrollTop();
 
@@ -1815,18 +1861,18 @@ of amenities and services to make your stay seamless and relaxing.</p> -->
     $(".subMenu").hide();
 
     // Shows SubMenu when it's parent is hovered.
-    $(".subMenu").parent("li").hover(function() {
+    $(".subMenu").parent("li").hover(function () {
       $(this).find(">.subMenu").not(':animated').slideDown(300);
       $(this).toggleClass("active ");
     });
 
     // Hides SubMenu when mouse leaves the zone.
-    $(".subMenu").parent("li").mouseleave(function() {
+    $(".subMenu").parent("li").mouseleave(function () {
       $(this).find(">.subMenu").slideUp(150);
     });
 
     // Prevents scroll to top when clicking on <a href="#"> 
-    $("a[href=\"#\"]").click(function() {
+    $("a[href=\"#\"]").click(function () {
       return false;
     });
   </script>
@@ -1867,7 +1913,7 @@ of amenities and services to make your stay seamless and relaxing.</p> -->
     })
   </script>
   <script type="text/javascript">
-    jQuery("#submit").click(function() {
+    jQuery("#submit").click(function () {
       var name = jQuery.trim(jQuery("#name").val());
       var email = jQuery.trim(jQuery("#email").val());
       var subject = jQuery.trim(jQuery("#subject").val());
@@ -1903,7 +1949,7 @@ of amenities and services to make your stay seamless and relaxing.</p> -->
         data: Data,
         dataType: 'json',
         cache: false,
-        success: function(msg) {
+        success: function (msg) {
           if (msg == "Invalid verification code.") {
             jQuery("#msgSuccessNew").show();
             jQuery("#msgSuccessNew").html("Sorry Mail server is busy. Please send after some time.");
@@ -1927,11 +1973,11 @@ of amenities and services to make your stay seamless and relaxing.</p> -->
     }
   </script>
   <script type="text/javascript">
-    $(document).ready(function() {
-      $('#menu').click(function() {
+    $(document).ready(function () {
+      $('#menu').click(function () {
         $('#navArea ul').css("left", "0");
       });
-      $('#close-nav > i').click(function() {
+      $('#close-nav > i').click(function () {
         $('#navArea ul').css("left", "-100%");
       });
     });
@@ -1949,7 +1995,7 @@ of amenities and services to make your stay seamless and relaxing.</p> -->
   <!-- Your SDK code -->
 
   <script>
-    window.fbAsyncInit = function() {
+    window.fbAsyncInit = function () {
 
       FB.init({
 
@@ -1963,7 +2009,7 @@ of amenities and services to make your stay seamless and relaxing.</p> -->
 
 
 
-    (function(d, s, id) {
+    (function (d, s, id) {
 
       var js, fjs = d.getElementsByTagName(s)[0];
 
@@ -1980,8 +2026,8 @@ of amenities and services to make your stay seamless and relaxing.</p> -->
   </script>
 
   <script>
-    $(document).ready(function() {
-      $('#book_now').click(function() {
+    $(document).ready(function () {
+      $('#book_now').click(function () {
         $('html, body').animate({
           scrollTop: ($("#bookform").offset().top - 200)
         }, 100);
@@ -2004,9 +2050,24 @@ of amenities and services to make your stay seamless and relaxing.</p> -->
           }
         }
       });
-      $('#contact_name, #product, #no_of_hrs').change(function() {
+      $('#contact_name, #product, #no_of_hrs').change(function () {
         console.log('hello');
-        $('#name').val($('#product').val() + ' (' + $('#no_of_hrs').val() + ' Hrs) ' + $('#contact_name').val());
+        $('#name').val($('#product').val() + ' (' + $('#no_of_hrs').val() + ' Hrs) ' + $('#contact_name')
+      .val());
+      });
+      $('#contact_name').change(function () {
+        console.log('hello');
+        var value = $('#contact_name').val();
+        var child_option = document.getElementById("child_option");
+        var infant_option = document.getElementById("infant_option");
+        if (value == 12) {
+          child_option.style.display = "block";
+          infant_option.style.display = "block";
+        }else{
+          child_option.style.display = "none";
+          infant_option.style.display = "none";
+        }
+        // $('#name').val($('#product').val() +'(' + $('#no_of_hrs').val() +'Hrs)'+ $('#contact_name').val());
       });
       $('.datepicker').datetimepicker({
         controlType: 'select',
@@ -2018,7 +2079,7 @@ of amenities and services to make your stay seamless and relaxing.</p> -->
   </script>
 
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       var countryData = {
         1: {
           states: ["Maharashtra", "Karnataka", "Delhi", "Uttar Pradesh", "Madhya Pradesh"],
@@ -2046,7 +2107,7 @@ of amenities and services to make your stay seamless and relaxing.</p> -->
 
         stateDropdown.empty().append('<option value="">Select</option>');
 
-        $.each(states, function(index, state) {
+        $.each(states, function (index, state) {
           stateDropdown.append('<option value="' + state + '">' + state + '</option>');
         });
       }
@@ -2057,17 +2118,17 @@ of amenities and services to make your stay seamless and relaxing.</p> -->
 
         cityDropdown.empty().append('<option value="">Select</option>');
 
-        $.each(cities, function(index, city) {
+        $.each(cities, function (index, city) {
           cityDropdown.append('<option value="' + city + '">' + city + '</option>');
         });
       }
 
-      $("#country").on("change", function() {
+      $("#country").on("change", function () {
         var selectedCountry = $(this).val();
         updateStates(selectedCountry);
       });
 
-      $("#state").on("change", function() {
+      $("#state").on("change", function () {
         var selectedCountry = $("#country").val();
         var selectedState = $(this).val();
         updateCities(selectedCountry, selectedState);
@@ -2077,17 +2138,20 @@ of amenities and services to make your stay seamless and relaxing.</p> -->
 
 
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       $(".datepicker").datetimepicker({
         dateFormat: 'yy-mm-dd',
         oneLine: true,
         timeFormat: 'hh:mm tt',
-        onSelect: function(dateText) {
+        onSelect: function (dateText) {
           updateToTime();
         }
       });
 
-      $("#no_of_hrs").change(function() {
+      $("#from_date").change(function () {
+        updateToTime();
+      });
+      $("#no_of_hrs").change(function () {
         updateToTime();
       });
     });

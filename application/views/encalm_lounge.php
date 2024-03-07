@@ -200,8 +200,8 @@ section {
     bottom: 0px;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .box-icon {
