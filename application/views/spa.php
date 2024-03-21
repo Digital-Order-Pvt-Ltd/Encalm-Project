@@ -717,7 +717,7 @@ padding: 4px 0;
                   <h5 class="color-main text-center f-36 mb-3 pb-4">Locations</h5>
                   <div class="location">
                     <div class="location_para">
-                    <p class="text-justify"><i class="fa fa-map-marker" aria-hidden="true"></i>  T3 International Departures,IGI Airport, New Delhi</p>
+                    <p class="text-justify"><i class="fa fa-map-marker" aria-hidden="true"></i>T3 International Departures,IGI Airport, New Delhi</p>
                     <p class="text-justify"><i class="fa fa-envelope" aria-hidden="true"></i>  <a href="mailto:spa@encalm.com" class="color-black">spa@encalm.com</a></p>
                     <p class="text-justify"> <a href="tel:+911149632241" class="color-black"><i class="fa fa-phone" aria-hidden="true"></i>+91 1149632241</a></p>
                     </div>

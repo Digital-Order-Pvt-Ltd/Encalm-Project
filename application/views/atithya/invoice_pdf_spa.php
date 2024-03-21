@@ -382,7 +382,7 @@
                                         <p style="margin: 2px 0px;">GST: 07AAGCE6783M1ZZ</p>
                                         <p style="margin: 2px 0px;"><strong>Place of Supply: New Delhi</strong></p>
                                         <p style="margin: 2px 0px;"><b>Registered Address:</b> Plot No 89 LGF, Sector 44, Gurgaon 122003, Haryana, India</p>
-                                        <p style="margin: 2px 0px;">Terms and Conditons of services as provided on <a target="_blank" href="https://links.encalm.com/assets/spa-menu.pdf">www.encalm.com/assets/spa-menu.pdf</a> shall apply</p>
+                                        <!-- <p style="margin: 2px 0px;">Terms and Conditons of services as provided on <a target="_blank" href="https://links.encalm.com/assets/spa-menu.pdf">www.encalm.com/assets/spa-menu.pdf</a> shall apply</p> -->
                                         <p style="margin: 2px 0px;">For Spa booking and queries please feel to write to us on  <a href="mailto:spa.services@encalm.com">spa.services@encalm.com</a></p>
                                     </td>
                                 </tr>

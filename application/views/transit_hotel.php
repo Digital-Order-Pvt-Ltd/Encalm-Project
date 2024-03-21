@@ -20,6 +20,9 @@ include('header.php'); ?>
     font-size: 18px;
     height: auto !important;
   }
+  .datepicker{
+    text-transform: uppercase;
+  }
 
   h1,
   h2,
@@ -610,7 +613,6 @@ include('header.php'); ?>
     bottom: 0px;
     line-height: 36px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
   }
 
@@ -711,7 +713,8 @@ include('header.php'); ?>
   }
 
   /*----------------Service Box-------------------*/
-  <blade media|%20screen%20and%20(min-width%3A%20937px)%20and%20(max-width%3A%201000px)%20%7B%0D>#navArea>ul {
+  @media screen and (min-width: 937px) and (max-width: 1000px){
+    #navArea>ul {
     position: absolute;
     background: #152349;
     width: 100%;

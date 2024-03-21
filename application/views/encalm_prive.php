@@ -793,6 +793,7 @@ include('header.php'); ?>
     }
   }
 
+
   @media screen and (min-width: 481px) and (max-width: 936px) {
     .border-left {
       border: 0px;
