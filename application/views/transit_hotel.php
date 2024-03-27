@@ -1171,7 +1171,9 @@ include('header.php'); ?>
             <!--  </div>-->
             <!--  <div class="clear"></div>-->
             <!--</div>-->
+            <a href="https://encalm-ibe.oasispms.com/ibe_hourly/" target="_blank">
             <button class="books" id="book_now">Book Now</button>
+         </a>
           </div>
         </div>
       </div>
