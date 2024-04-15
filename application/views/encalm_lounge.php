@@ -1456,8 +1456,7 @@ gtag('config', 'G-MLXLN4EQZ5');
                             <div class="location_block">
                                 <h5 class="color-main text-center">Hyderabad</h5>
                                 <p class="text-center color-black"><i class="fa fa-map-marker" aria-hidden="true"></i>
-                                    Level E beside gate no. 21 SHA domestic departures RGI Airport, Shamshabad 501218
-                                    Telangana</p>
+                                Level E, Opposite to domestic transfers, domestic departures RGI Airport, Shamshabad 501218 Telangana.</p>
                                 <p class="text-center"><a href="mailto:hyd.dom@encalm.com" class="color-black"><i
                                             class="fa fa-envelope" aria-hidden="true"></i> hyd.dom@encalm.com</a> </p>
                                 <p class="text-center color-black"> <a class="color-black" href="tel:+918826697922"><i

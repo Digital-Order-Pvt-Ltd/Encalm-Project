@@ -63,11 +63,11 @@ $route['blogs/5-ways-the-encalm-spa-improves-your-life'] = 'atithya/blogs/blog_4
 $route['blogs/4-ways-to-travel-better-this-holiday-season'] = 'atithya/blogs/blog_5';
 $route['blogs/5-ways-in-which-the-brand-new-encalm-lounge'] = 'atithya/blogs/blog_6';
 $route['blogs/6-ways-atithya-is-redefining-the-airport'] = 'atithya/blogs/blog_7';
-$route['blogs/6-ways-atithya-is-redefining-the-airport'] = 'atithya/blogs/blog_8';
+$route['blogs/how-to-de-stress-before-your-next-flight'] = 'atithya/blogs/blog_8';
 $route['pressroom'] = 'atithya/pressroom';
 $route['services/businesscentre/booking'] = 'services/businesscentre_booking';
 // $route['services/encalm-transit'] = 'services/encalm_transit';
-$route['services/transit-hotel'] = 'services/transit_hotel';
+$route['services/transit-lounge'] = 'services/transit_lounge';
 
 $route['blogs/Where-Goan-hospitality-meets-luxury-travel'] = 'atithya/blogs/blog_11';
 $route['blogs/Your-ticket-to-a-magical-Goa-experience'] = 'atithya/blogs/blog_12';

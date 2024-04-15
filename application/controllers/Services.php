@@ -137,7 +137,7 @@ class Services extends CI_Controller
 		$this->load->view('businesscentre_booking', $this->data);
 	}
 
-	public function transit_hotel()
+	public function transit_lounge()
 	{
 		$this->data['meta_title'] = "Transit | Encalm";
 		$this->data['meta_keywords'] = "";
@@ -145,7 +145,7 @@ class Services extends CI_Controller
 
 		$this->data['meta_website_description'] = "";
 
-		$this->load->view('transit_hotel', $this->data);
+		$this->load->view('transit_lounge', $this->data);
 	}
 
 	public function change_time()

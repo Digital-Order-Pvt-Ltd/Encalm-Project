@@ -157,7 +157,7 @@
               <li><a href="<?= base_url() ?>spa">Encalm Spa</a></li>
               <li><a href="<?= base_url() ?>services/enwrap">Enwrap</a></li>
               <li><a href="<?= base_url() ?>services/encalmprive">Encalm Privé</a></li>
-             <li><a href="<?= base_url() ?>services/transit-hotel">Transit by Encalm</a></li>
+             <li><a href="<?= base_url() ?>services/transit-lounge">Transit by Encalm</a></li>
               <!-- <li><a href="<?= base_url() ?>services/encalm-transit">Transit by Encalm</a></li> -->
               <!--<li><a href="<?= base_url() ?>encalm_hotel.php">Encalm Hotels</a></li>-->
             </ul>
@@ -182,7 +182,7 @@
           <li><a href="<?= base_url() ?>services/enwrap">Enwrap</a></li>
           <li><a href="<?= base_url() ?>services/businesscentre">The Business Center</a></li>
           <li><a href="<?= base_url() ?>services/encalmprive">Premium Lounge</a></li>
-          <li><a href="<?= base_url() ?>services/transit-hotel">Transit Hotel</a></li>
+          <li><a href="<?= base_url() ?>services/transit-lounge">Transit Lounge</a></li>
           <!-- <li><a href="<?= base_url() ?>services/encalm-transit">Transit Hotel</a></li> -->
           
           <!--<li><a href="#">Hotels</a></li>-->

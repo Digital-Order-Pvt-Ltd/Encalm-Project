@@ -1,17 +1,36 @@
 <?php
 include('header.php'); ?>
 
-<style>
+<style>{
 <blade font|-face%20%7B%0D>font-family: Brandon;
 src: url(<?= base_url() ?>assets/fonts/Brandon_reg.otf);
 
 }
-
+{
 <blade font|-face%20%7B%0D>font-family: Brandon-bld;
 src: url(<?= base_url() ?>assets/fonts/Brandon_bld.otf);
 
 }
+    .location .location_para {
+    border: 2px solid #d9ac5e;
+    padding: 13px 30px;
+    /* height: 250px; */
+    min-height: 250px;
+    /* width: 300px; */
+    /* overflow: auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.location_para h5{
+    padding:10px 0px;
 
+}
+.location .location_para p i {
+    color: #c9a477;
+    padding-right: 6px;
+}
 /*@font-face{font-family:Gill-Sans-Nova-Medium;*/
 /*    src:url(/fonts/Monotype_-_Gill_Sans_Nova_Medium.woff);*/
 /*}*/
@@ -233,6 +252,7 @@ section {
 .owl-dots {
     text-align: center;
     margin-top: 4%;
+    display:block;
 }
 
 .owl-dot {
@@ -618,11 +638,13 @@ ul.subMenu ul.subMenu {
     line-height: 36px;
     display: flex;
     justify-content: center;
+    flex-wrap:wrap;
+    gap:24px;
 }
 
-.icon-serve2 img {
+/* .icon-serve2 img {
     width: 100%;
-}
+} */
 
 .custom-form2 {
     border: none;
@@ -712,9 +734,9 @@ ul.subMenu ul.subMenu {
     padding-bottom: 8px;
 }
 
-.icon-serve img {
+ .icon-serve img {
     width: 80px;
-}
+} 
 
 /*----------------Service Box-------------------*/
 @media screen and (min-width: 937px) and (max-width: 1000px) {
@@ -948,6 +970,7 @@ ul.subMenu ul.subMenu {
 }
 
 @media screen and (min-width:320px) and (max-width:480px) {
+  
 
     .blacks-box {
         background: #000000de;
@@ -1106,6 +1129,7 @@ ul.subMenu ul.subMenu {
     }
 }
 
+}
 .error {
     display: block;
 }
@@ -1275,37 +1299,42 @@ gtag('config', 'G-MLXLN4EQZ5');
 
                 <div class="icon-serve icon-serve2">
                     <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/emergency-call.png"
-                            alt="Emergency Call">
-                        <p class="color-main text-center">Emergency Call</p>
+                            alt="Doctor on Call">
+                        <p class="color-main text-center">Doctor on Call</p>
                     </div>
                     <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/coffee-maker.png"
-                            alt="Coffee Maker">
+                            alt="Coffee Maker" >
                         <p class="color-main text-center">Coffee Maker</p>
                     </div>
+                   
                     <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/laundry.png"
-                            alt="Laundry">
-                        <p class="color-main text-center">Laundry</p>
+                            alt="Laundry Service" >
+                        <p class="color-main text-center">Laundry Service</p>
                     </div>
                     <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/ironing.png"
-                            alt="Ironing">
-                        <p class="color-main text-center">Ironing</p>
+                            alt="Iron and Ironing Board" >
+                        <p class="color-main text-center">Iron and Ironing Board</p>
                     </div>
-                    <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/Wi-Fi.png" alt="Wi-fi">
+                    <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/Wi-Fi.png" alt="Wi-fi" >
                         <p class="color-main text-center">Wi-fi</p>
                     </div>
                     <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/dining_area.png"
-                            alt="spa">
-                        <p class="color-main text-center">Dining area</p>
+                            alt="In Room Dining" >
+                        <p class="color-main text-center">In Room Dining</p>
                     </div>
-                    <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/Spa.png" alt="spa">
-                        <p class="color-main text-center">Spa</p>
+                    <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/Spa.png" alt="spa" >
+                        <p class="color-main text-center">SPA</p>
                     </div>
-                    <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/dumbbell.png" alt="spa">
-                        <p class="color-main text-center">Dumbbell</p>
+                    <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/dumbbell.png" alt="GYM" >
+                        <p class="color-main text-center">GYM</p>
                     </div>
                     <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/Concierge-Services.png"
-                            alt="Concierge Services">
+                            alt="Concierge Services" >
                         <p class="color-main text-center">Concierge Services</p>
+                    </div>
+                    <div class="box-icon text-center"><img src="<?= base_url() ?>assets/image/Bar.png" 
+                            alt="Bar">
+                        <p class="color-main text-center">Bar</p>
                     </div>
 
                 </div>
@@ -1325,8 +1354,8 @@ gtag('config', 'G-MLXLN4EQZ5');
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6 m-auto">
-                    <div class="">
+                <div class="col-lg-6 m-auto location">
+                    <div class="location_para">
 
                         <h5 class="color-main text-center">Shamshabad</h5>
                         <p class="text-center color-black mb-1"><i class="fa fa-map-marker" aria-hidden="true"></i>
@@ -1341,10 +1370,10 @@ gtag('config', 'G-MLXLN4EQZ5');
                         <p class="text-center color-black mb-1"><strong>Mahatma Gandhi Bus Stand:</strong> 25 km
                             (approx. 45
                             minutes)</p>
-                        <p class="text-center color-black mb-1"><i class="fa fa-envelope color-blue"
+                        <p class="text-center color-black mb-1"><i class="fa fa-envelope"
                                 aria-hidden="true"></i>
                             reservations@transitbyencalm.com </p>
-                        <p class="text-center color-black mb-1"><i class="fa fa-phone color-blue"
+                        <p class="text-center color-black mb-1"><i class="fa fa-phone"
                                 aria-hidden="true"></i> <a class="color-black" href="tel:+919289472139">+91
                                 9289366950</a></p>
                     </div>
@@ -1354,6 +1383,86 @@ gtag('config', 'G-MLXLN4EQZ5');
 of amenities and services to make your stay seamless and relaxing.</p> -->
         </div>
     </section>
+    <section class="bg-white">
+    <div class="container pt-4">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-title text-center">
+          <h5 class="color-main text-center f-36 mb-3 pb-4">Our Gallery</h5>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="spa-carousel section-padding owl-carousel">
+         
+            <div class="testi">
+              <div class="lounge_img">
+                <img src="<?= base_url() ?>assets/image/Transit_lounge/5.jpg" alt="spa_services" >
+                       </div>
+              </div>
+     
+            <div class="testi">
+              <div class="lounge_img">
+                <img src="<?= base_url() ?>assets/image/Transit_lounge/6.jpg" alt="spa_services" >
+                       </div>
+            </div>
+            
+            <div class="testi">
+              <div class="lounge_img">
+                <img src="<?= base_url() ?>assets/image/Transit_lounge/7.jpg" alt="spa_services" >
+                       </div>
+            </div>
+            
+          <div class="testi">
+              <div class="lounge_img">
+                <img src="<?= base_url() ?>assets/image/Transit_lounge/2.jpg" alt="spa_services" >
+                       </div>
+            </div>
+            <div class="testi">
+              <div class="lounge_img">
+                <img src="<?= base_url() ?>assets/image/Transit_lounge/3.jpg" alt="spa_services" >
+                       </div>
+            </div>
+            <div class="testi">
+              <div class="lounge_img">
+                 <img src="<?= base_url() ?>assets/image/Transit_lounge/4.jpg" alt="spa_services" >
+                       </div>
+            </div>
+            
+         
+            
+            <div class="testi">
+              <div class="lounge_img">
+                <img src="<?= base_url() ?>assets/image/Transit_lounge/8.jpg" alt="spa_services" >
+                       </div>
+            </div>
+            
+            <div class="testi">
+              <div class="lounge_img">
+                <img src="<?= base_url() ?>assets/image/Transit_lounge/9.jpg" alt="spa_services" >
+                       </div>
+            </div>
+            
+            <div class="testi">
+              <div class="lounge_img">
+                <img src="<?= base_url() ?>assets/image/Transit_lounge/10.jpg" alt="spa_services" >
+                       </div>
+            </div>
+            
+            <div class="testi">
+              <div class="lounge_img">
+                <img src="<?= base_url() ?>assets/image/Transit_lounge/Artboard 1.jpg" alt="spa_services" >
+                       </div>
+            </div>
+          
+       
+            
+          </div>
+        </div>
+      </div>  
+    </div>
+  </section>
     <!-------------------Booking Form-------------------------->
     <section class="mt-1 mb-5">
         <div class="container term-cond shadow bg-white p-5">
@@ -1389,7 +1498,7 @@ of amenities and services to make your stay seamless and relaxing.</p> -->
                     <li>Pets are not allowed</li>
                     <li>Special requests, flight information, amendments, cancellation in reservations shall be directed
                         to our Reservations Office.</li>
-                    <li>You can contact us on +91 9289366950 / XXXXXX, E-mail: reservations@transitbyencalm.com</li>
+                    <li>You can contact us on +91 9289366950, E-mail: reservations@transitbyencalm.com</li>
                     <p class="mt-3 mb-0 color-black"><b>Cancellation Policy/ Rescheduling Policy:</b></p>
                     <table class="table table-bordered">
                         <thead>
@@ -1821,3 +1930,67 @@ of amenities and services to make your stay seamless and relaxing.</p> -->
         }
     }
     </script>
+    <script type="text/javascript">
+    $('.brand-carousel-1').owlCarousel({
+          loop:true,
+          margin:10,
+          autoplay:true,
+          responsive:{
+            0:{
+              items:1
+             
+            },
+            600:{
+              items:1
+              
+            },
+            1000:{
+              items:1
+            }
+          }
+        }) 
+
+</script>
+<script type="text/javascript">
+    $('.brand-carousel').owlCarousel({
+          loop:true,
+          margin:10,
+          autoplay:true,
+          responsive:{
+            0:{
+              items:1
+              
+            },
+            600:{
+              items:3
+            },
+            1000:{
+              items:4
+            }
+          }
+        }) 
+        $('.spa-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      autoplay: true,
+
+      responsive: {
+        0: {
+          items: 1,
+       
+        
+        },
+        600: {
+          items: 1,
+        
+        
+        },
+        1000: {
+          items: 3,
+        }
+      }
+    })
+
+
+
+</script>

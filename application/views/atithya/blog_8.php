@@ -1,4 +1,11 @@
-<?php include('header.php'); ?>
+<?php
+$meta_title = 'How To De-Stress Before Your Next Flight with Encalm Spa';
+$meta_description = 'Discover how to de-stress before your next flight with Encalm Spa and the luxurious treatments designed to de-stress and put you into a state of pure relaxation.';
+$meta_website_description = 'Discover how to de-stress before your next flight with Encalm Spa and the luxurious treatments designed to de-stress and put you into a state of pure relaxation.';
+
+$meta_header = 'Traveling alone with your child? We can help';
+ include('/home/ecuser/public_html/application/views/header.php'); ?>
+
 <style>
   @font-face {
   font-family:Brandon;
@@ -80,7 +87,7 @@ h1, h2, h3, h4, h5, h6, p{font-family:Brandon!important;}
   section{padding: 30px 0!important;}
   .section-title{padding-bottom: 10px!important;}
   .btn-main{width: 100%; background-color:#cda45e; border: solid 1px #cda45e; border-radius: 5px; padding: 7px 25px;}
- .padd-top-125{padding-top:125px!important;}
+
   /*--------------------logo------------------------------*/
     .header-heading-title{position: absolute;
     width: 100%;
@@ -124,7 +131,7 @@ h1, h2, h3, h4, h5, h6, p{font-family:Brandon!important;}
     }
     .foots li{padding:3px 0px!important;}
     .books{background-color:#cda45e; width: 100%; border:0px; padding:8px 25px; text-align: center; color:#ffffff; font-size:20px;}
-    #hero{background-image: url('image/header.jpg')!important;}
+    #hero{background-image: url('<?=base_url()?>assets/image/header.jpg')!important;}
    /* .fixed{background: #ffffff!important;
     position: fixed;
     top: 0;
@@ -567,51 +574,6 @@ height:65px;
          .close-menu button{position: relative; right: 0; width: 100%; text-align: right; background: #0000; border: 0px; color: #ffffff; padding: 10px 15px 0px; font-size: 20px;}
          .text-primarys{padding: 15px 0px!important;}
     }
-
-    .section-title{}
-    .section-title .spa_logo{
-      padding-top: 128px;
-    }
-
-    .location{
-      display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap:wrap;
-    gap:20px;
-}
-.location .location_para{
-  border: 2px solid #d9ac5e;
-         padding: 13px 30px;
-         height: 250px;
-         min-height: 250px;
-         width:300px;
-         overflow: auto;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-}
-
-.location .location_para p{
-margin: 0;
-color: #000 !important;
-padding: 4px 0;
-}
-.location .location_para p i{
-  color: #c9a477;
-    padding-right: 6px;
-}
-
-.location .location_para p a{
-  color: #fff;
-}
-.spa_order_list{
-  padding: 0;
-}
-.spa_order_list li{
-  padding: 10px;
-}
 </style>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 
@@ -634,148 +596,50 @@ padding: 4px 0;
 
 <body>
 
-<?php include('navigation.php'); ?>
-<!-- ======= Hero Section ======= -->
+<?php include('/home/ecuser/public_html/application/views/navigation.php'); ?>
 
-<!-- End Hero -->
-<!--<video width="320" height="240" controls autoplay>-->
-<!--  <source src="Intro.mp4" type="video/mp4">-->
-  
-<!--</video>-->
-<!--<section class="video-position">-->
-<!--   <img src="image/inter-header.jpg" alt="encalm" width="100%;"/>-->
-<!--</section>-->
-
-<!------------------About Us----------------->
-<section>
-    <div class="container">
-         <div class="row">
-      <div class="col-lg-12">
-      <div class="section-title text-center">
-            <!--<h2>About</h2>-->
-            <div class="spa_logo"><img src="<?= base_url() ?>assets/image/spa_images/spa_logo.png" alt="spa Service" title="spa_service" style="width: 150px;"></div>
-          </div>
+<main id="main"> 
+  <!-- ======= About Section ======= -->
+  <section id="services" class="services">
+    <div class="container" data-aos="fade-up">
+      <div class="row mb-4">
+        <div class="col-md-8 m-auto">
+        </div>
       </div>
-    </div>
-      <div class="row">
-        <div class="col-lg-12 pt-4 pt-lg-0 content color-black text-justify">
-        <h4>INTRODUCING ENCALM SPA</h4>
-         <p class="text-justify color-black">At Encalm Spa, we understand that every traveller is unique, and our diverse selection of services reflects our commitment to provide a tailored escape, leaving you refreshed and rejuvenated before your next journey.</p>
-          <p class="text-justify color-black">Travel comes with its challenges, and at Encalm Spa, we understand the importance of providing a sanctuary amid the demands of your journey. Step into our haven, where you can unwind, recharge, and immerse yourself in tranquillity, right in the heart of your travel experience. </p>
-         <!-- <p class="text-justify color-black">With all the aforementioned challenges of travelling, our guests deserve a break to relax during their journey.</p>
-       <p class="text-justify color-black">&nbsp;</p> -->
-      <h4>WHAT DOES THE ENCALM SPA OFFER?</h4>
-     <p class="text-justify color-black">Step into the world of Encalm Spa, where we believe in not just pampering, but in the art of transforming your well-being. Explore the enriching benefits that our spa therapy brings to your mind, body, and spirit:</p>
-    <!-- <p class="text-justify color-black">Other than simply pampering yourself, here are some of the benefits of spa therapy at Encalm Spa:</p>-->
-<ol class="spa_order_list"> 
-    <li><strong>Expert massage therapists – </strong>: Entrust your relaxation journey to our team of skilled and experienced massage therapists. Trained in the art of massage, they are well-versed in addressing the unique needs of travellers and possess the expertise to customise each session, ensuring you receive the utmost care and attention for a truly indulgent experience. Relieve tension from long flights, soothe travel-weary muscles, and experience rejuvenation tailored to the demands of airport life!</li>
-    <li><strong>Efficient stress relief – </strong>Airport travel can be stressful. Encalm Spa provides effective stress relief through targeted therapies, allowing you to let go of travel-related tensions and embrace a serene state of mind before continuing your journey.</li>
-    <li><strong>Revitalise with quick therapies – </strong>Short on time? Our airport spa caters to travellers with therapies designed to provide instant relaxation. From quick massages to relaxing pedicures, indulge in a brief escape that recharges your energy.</li>
-    <li><strong>Travel-friendly pampering – </strong>: Our spa understands the needs of travellers, offering treatments that cater to on-the-go lifestyles. Enjoy treatments designed for easy post-spa transition, ensuring you're airport-ready and relaxed.</li>
-    <li><strong>Convenient location-</strong>Located within the Domestic and International Departures of Delhi Airport, Encalm Spa offers a convenient way to make the most of your layovers or waiting time. Experience a mini vacation without leaving the terminal, ensuring you board your next flight feeling refreshed. </li>
-    <li><strong>A serene environment - </strong>Immerse yourself in a tranquil oasis carefully designed to enhance your overall spa experience. From soothing music to calming decor, every element is curated to transport you to a state of serenity from the moment you step through our doors. </li>
-</ol>
-<!-- <p class="text-justify color-black">&nbsp;</p>
-<h4>WHY SHOULD ONE STOP BY AT THE ENCALM SPA?</h4>
-<p class="text-justify color-black"><em>“Relax the body. Heal the mind. Calm the spirit.”</em></p>
-<p class="text-justify color-black">One of the greatest gifts to yourself can be just the right amount of attention. At Encalm Spa, we
-    provide an environment of tranquility and numerous massage therapies that help you unwind after a
-    long day at the airport!</p>
-    <p class="text-justify color-black">Our in-house experts understand the exceptional benefits of massage therapy and utilize time-honored
-        techniques during each session. Our treatments include only the finest natural ingredients, known for
-        their calming and healing properties, such as lavender and cedarwood among others.</p>
-        <p class="text-justify color-black">A good spa session is known to enhance moods and promote emotional and physical well-being. If
-            peace of mind is what you’re after, come visit us at the Encalm Spa.</p> -->
-            
-            <!-- <p class="text-justify color-black"><strong>Location</strong></p>
-                T3 International Departures, IGI Airport, New Delhi
-                <p class="text-justify color-black"><i class="fa fa-phone color-blue" aria-hidden="true"></i> <a class="color-black" href="tel:+911149632241">+91 1149632241</a></p>
+      <div class="ccontent mt-5 pt-5">
+        <h1 style="color: #cda45e;" class="mt-4">How to de-stress before your next flight</h1>
+        <div id="elite">
+        <div class="row mb-5">
+          <div class="col-md-12">
+            <div class="splan mt-4">
+                <p class="text-center"><img class="w-100" style="margin-bottom:5px;" alt="Atithya meet and greet, Meet and greet Delhi, Delhi airport assistance" src="<?=base_url('')?>/assets/image/bigblog_8.jpg"></p>
+                <h2 style="color: #cda45e;" class="mt-4">Learn the art of letting go with Encalm Spa</h2>
+                <p class="text-secondary">Heading to the skies? Don’t let’ stress drag you down!</p>
+                <p class="text-secondary">Picture this: You're gearing up for an epic adventure, your suitcase packed with dreams and your heart filled with excitement. But wait... amidst the thrill of travel lurks the dreaded pre-flight stress monster, ready to pounce and ruin your vibe. </p>
+                <p class="text-secondary">Enter Encalm Spa, where we've got the antidote to pre-flight jitters, and it comes in the form of pure relaxation!</p>
+                <h3 style="color: #cda45e;" class="mt-4">Get ready to big adieu to pre-flight woes</h3>
+                <p class="text-secondary">Flying high shouldn't mean feeling low! At our <a href="https://encalm.com/spa" class="text-secondary">airport spa</a>, we have curated a menu of blissful treatments designed to whisk you away from stress and into a state of pure Zen. Thanks to our expert therapists and their magical treatments, we’ll have you feeling like you're floating on cloud nine before you even step foot on the plane.</p>
+                <h3 style="color: #cda45e;" class="mt-4">Indulge in some me-time before takeoff</h3>
+                <p class="text-secondary">Encalm all about making your pre-flight experience as delightful as possible. Our spa at Delhi Airport offers some luxurious therapies that you can indulge yourself in. Imagine sinking into a plush massage chair as skilled hands work their magic on your weary muscles. Or perhaps you fancy a rejuvenating full-body massage to soothe your muscles and transport you to a state of tranquility. Whatever your relaxation style, we've got you covered at Encalm Spa!</p>
+                <h3 style="color: #cda45e;" class="mt-4">Benefits that soar beyond the skies</h3>
+                <p class="text-secondary">Letting go isn't just a mantra—it's a way of life. By releasing tension and embracing relaxation, you're not just prepping for takeoff; you're investing in your overall well-being. Picture yourself gliding through the airport with a newfound sense of calm, ready to tackle whatever adventures lie ahead with a smile on your face and a skip in your step!</p>
+                <p class="text-secondary"><a href="https://encalm.com/spa" style="color: #cda45e;">Encalm Spa:</a> Your ticket to pre-flight bliss!</p>
+                <p class="text-secondary">So, why let pre-flight stress rain on your parade when you can dance in the sunshine of relaxation? Make your next journey one to remember with a pre-flight pitstop at Encalm Spa. Trust us—you'll thank yourself later. Bon voyage, and may your travels be as smooth as your post-spa glow!</p>
                 
-                T3 Domestic Departures, IGI Airport, New Delhi
-                <p class="text-justify color-black"><i class="fa fa-phone color-blue" aria-hidden="true"></i> <a class="color-black" href="tel:+911149630620">+91 1149630620</a></p>
-             -->
-                
-			<!-- <p class="text-justify color-black"><i class="fa fa-envelope color-blue" aria-hidden="true"></i> <a href="mailto:spa@encalm.com">spa@encalm.com</a> </p>	 -->
-				
-          <!--<p class="text-justify color-black"><strong>For Enquires:</strong><br>
-                <p class="text-justify color-black"><i class="fa fa-envelope color-blue" aria-hidden="true"></i> <a href="mailto:spa@encalm.com">spa@encalm.com</a> </p>
-                  <p class="text-justify color-black"><i class="fa fa-phone color-blue" aria-hidden="true"></i> <a class="color-black" href="tel:+911149632241">+91 1149632241</a></p>
-            </p>-->
-
-                <p class="text-justify color-black">&nbsp;</p>   
-                     <!-- <div class="section-title text-center padd-top-10">               <p>Open Now</p>          </div> -->
-         </div>		 
-      </div>
-    </div>
-</section>
-
-<section class="mb-5 p-0">
-    <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="text-center">              
-                  <h5 class="color-main text-center f-36 mb-3 pb-4">Locations</h5>
-                  <div class="location">
-                    <div class="location_para">
-                    <p class="text-justify"><i class="fa fa-map-marker" aria-hidden="true"></i>T3 International Departures,IGI Airport, New Delhi</p>
-                    <p class="text-justify"><i class="fa fa-envelope" aria-hidden="true"></i>  <a href="mailto:spa@encalm.com" class="color-black">spa@encalm.com</a></p>
-                    <p class="text-justify"> <a href="tel:+911149632241" class="color-black"><i class="fa fa-phone" aria-hidden="true"></i>+91 1149632241</a></p>
-                    </div>
-                    <div class="location_para">
-                  <p class="text-justify"><i class="fa fa-map-marker" aria-hidden="true"></i>T3 Domestic Departures, IGI Airport, New Delhi</p>
-                  <p class="text-justify"><i class="fa fa-envelope" aria-hidden="true"></i>  <a href="mailto:spa@encalm.com" class="color-black">spa@encalm.com</a></p>
-                   
-                  <p class="text-justify"><a href="tel:+911149630620" class="color-black"><i class="fa fa-phone " aria-hidden="true"></i> +91 1149630620</a></p>
-                  </div>
-                  </div>
-       
-              </div>
+            </div>
           </div>
         </div>
-    </div>
- </section>
-<section class="bg-white">
-    <div class="container pt-4">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="section-title text-center">
-          <h5 class="color-main text-center f-36 mb-3 pb-4">Our Gallery</h5>
-          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="spa-carousel section-padding owl-carousel">
-            <div class="testi">
-               <div class="lounge_img">
-               <img src="<?= base_url() ?>assets/image/spa_images/spa_img1.jpg" alt="spa_services">
-                       </div>
-            </div>
-            <div class="testi">
-              <div class="lounge_img">
-                 <img src="<?= base_url() ?>assets/image/spa_images/spa_img2.jpg" alt="spa_services">
-                       </div>
-            </div>
-            <div class="testi">
-              <div class="lounge_img">
-                <img src="<?= base_url() ?>assets/image/spa_images/spa_img3.jpg" alt="spa_services">
-                       </div>
-              </div>
-     
-            <div class="testi">
-              <div class="lounge_img">
-                <img src="<?= base_url() ?>assets/image/spa_images/spa_img4.jpg" alt="spa_services" >
-                       </div>
-            </div>
-       
-            
-          </div>
-        </div>
-      </div>  
     </div>
   </section>
-<!------------------------Services--------------------------->>
-<?php include('footer.php'); ?>
+  <!-- End About Section --> 
+  
+</main>
+<!-- End #main --> 
+<!-- ======= Footer ======= -->
+
+<?php include('/home/ecuser/public_html/application/views/footer.php'); ?>
 <script>
         let counts=setInterval(updated);
         let upto=0;
@@ -885,23 +749,6 @@ function showSlides() {
             }
           }
         }) 
-        $('.spa-carousel').owlCarousel({
-      loop: true,
-      margin: 10,
-      autoplay: true,
-      responsive: {
-        0: {
-          items: 1
-        },
-        600: {
-          items: 1
-        },
-        1000: {
-          items: 3
-        }
-      }
-    })
-
 
 </script>
 <script type="text/javascript">
@@ -1001,7 +848,73 @@ $(document).ready(function(){
 });
     
 </script>
-
-
+  
+<script>
+  function HomeActiveTab(tabName)
+  {
+	   
+	  if(tabName=='Departure')
+	  {
+			$('#DepartureFlight').html('');		
+			$('#DepartureFlight').html('<option value="" data-id="0" data-value="" data-code="" data-airline="0" data-name="" data-departure="" data-arrival="">Flight No.*</option>');
+			$("#DepartureToAirtport").html('');
+			$("#DepartureToAirtport").html('<option value="" data-id="0">Destination Airport</option>');
+			
+			$("#DepartureSector").prop("selectedIndex", 0);
+		   $('#Departuredod').val('');
+			
+			$('#d_terminal_id').val(0);	
+			$('#d_from_airport_id').val(0);	
+			$('#D_flight_id').val(0);	
+			$('#D_arrival_time').val('');	
+			$('#d_airline_id').val(0);	
+			$('#d_airline_name').val('');	
+			$('#d_arrival_term').val('');	
+			$('#d_departure_term').val('');	
+			$('#d_terminal_code').val('');	
+			$('#d_terminal_value').val('');	
+			$('#DepartureServiceTimeId').val('');	
+			$('#DepartureTimeId').val('');	
+		  
+		  DepartureFromAirport();
+		  //SectorList();
+	  }
+	  if(tabName=='Transit')
+	  {
+		  TransitServiceAirport();
+		  TransitArrivingSector();
+	  }
+	  if(tabName=='Lounge')
+	  {
+		  LoungeServiceAirport();
+		  LoungeCategory();
+	  }
+  }
+  $(document).ready(function(){
+    $('.check-class').click(function(){
+        if($(this).hasClass('active') == true)
+        {
+            $(this).html('<img src="<?=base_url('atithya_assets/assets/')?>img/transit-02.png" width="24px"/>&nbsp;Transit');
+        }
+        else
+        {
+          $(this).html('<img src="<?=base_url('atithya_assets/assets/')?>img/transit-01.png" width="24px"/>&nbsp;Transit');
+        }
+    });
+    $(".check-class-2").click(function(){
+        $(".check-class").html('<img src="<?=base_url('atithya_assets/assets/')?>img/transit-01.png" width="24px"/>&nbsp;Transit');
+    });
+    $("#myTab a").click(function(){
+      $('.htexts').addClass('d-none');
+      if($(this).attr('id')=='lounge-tab')
+        $('#lcontent').removeClass('d-none');
+      else
+        $('#scontent').removeClass('d-none');
+    });
+    <?php if(isset($_POST['loungetab'])) { ?>
+      $("#lounge-tab").click();
+    <?php } ?>
+  });
+</script>
 </body>
 </html>
