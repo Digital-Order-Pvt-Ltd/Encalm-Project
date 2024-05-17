@@ -202,6 +202,7 @@
         </li>
       <?php } else { ?>
         <li><a href="<?= base_url() ?>atithya/user/login" class="nav-link text-white"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Login</a></li>
+        <li><a href="<?= base_url() ?>atithya" class="nav-link books text-white"id="book_now">Book Now</a></li>
       <?php } ?>
     </ul>
   </nav>

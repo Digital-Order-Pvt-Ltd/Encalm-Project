@@ -16,6 +16,9 @@ include('header.php'); ?>
     .delightful {
       color: #262626;
     }
+    #booknow_sec{
+      display: block;
+    }
   }
  #homebook {
 	 -webkit-appearance: auto;
@@ -28,6 +31,9 @@ include('header.php'); ?>
 .service_desc.enwrap {
 	background: #f4f5f0;
 }
+#booknow_sec{
+      display: none;
+    }
  </style>
 <style>
 /*@font-face{font-family:Gill-Sans-Nova-Medium;*/
@@ -161,18 +167,19 @@ include('header.php'); ?>
            }
            .foots li{padding:3px 0px!important;}
            .books {
-    background-color: #cda45e;
+            background-color: #cda45e;
     width: 100%;
     border: 0px;
-    padding: 6px 25px;
+    padding: 11px 25px !important;
     text-align: center;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 20px !important;
     margin-top: 0px;
     border-radius: 5px;
     height: 40px;
     max-width: 150px;
     margin-left: 15px;
+    font-weight: 300 !important;
 }
            #hero{background-image: url('<?=base_url()?>assets/image/logo/header.jpg')!important;}
           /* .fixed{background: #ffffff!important;
@@ -286,12 +293,13 @@ include('header.php'); ?>
          width: 100%;
        }
        #navArea ul {
-       list-style: none;
-       display: flex;
-       align-items: center;
-       width: 500px;
-       justify-content: space-around;
-       }
+        list-style: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: end;
+}
+       
        
        #navArea ul li > ul {
        list-style: none;
@@ -625,22 +633,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="book_now_cta">
         <form id="homeform" action="" method="post">
               <div class="blacks-box">
-                  <p class="rate mb-0">Book your Airport Experience</p>
+                  <p class="rate mb-0">Book your Airport Experienced</p>
                   <div class="ful d-flex">
-                    <!--<div class="wid-50 bor-rgt">-->
-                    <!--  <img src="<?=base_url()?>assets/img/logolounge.png" alt="encalm">-->
-                    <!--</div>-->
-                    <!--<div class="wid-50">-->
-                    <!--  <img src="<?=base_url()?>assets/img/logoatithya.png" alt="atithya">-->
-                    <!--</div>-->
+                    <div class="wid-50 bor-rgt">
+                     <img src="<?=base_url()?>assets/img/logolounge.png" alt="encalm">
+                    </div>
+                    <div class="wid-50">
+                     <img src="<?=base_url()?>assets/img/logoatithya.png" alt="atithya">
+                    </div>
                     
-                    <select name="site" id ="homebook" class="form-control">
+                     <select name="site" id ="homebook" class="form-control">
                         <option>Select Service</option>
-                        <!-- <option value="<?=base_url()?>services/encalmlounge"><img src="<?=base_url()?>assets/image/logolounge.png" alt="Encalm airport lounge" title="Lounge Service" style="width: 30px;"> Encalm Lounge</option> -->
+                         <option value="<?=base_url()?>services/encalmlounge"><img src="<?=base_url()?>assets/image/logolounge.png" alt="Encalm airport lounge" title="Lounge Service" style="width: 30px;"> Encalm Lounge</option> 
                         <option value="<?=base_url()?>atithya"><img src="<?=base_url()?>assets/image/Atithya-Logo-Golden.png" alt="Atithya" title="Atithya" style="width: 30px;"> Atithya - Welcome & Assist Service</option>
-                        <!-- <option value="<?=base_url()?>spa/home"><img src="<?=base_url()?>assets/image/logolounge.png" alt="Encalm Spa" title="Encalm Spa" style="width: 30px;"> Encalm Spa</option>
-                        <option value="<?=base_url()?>services/enwrap"><img src="<?=base_url()?>assets/image/logolounge.png" alt="Enwrap" title="Enwrap" style="width: 30px;"> Enwrap</option> -->
-                    </select>
+                         <option value="<?=base_url()?>spa/home"><img src="<?=base_url()?>assets/image/logolounge.png" alt="Encalm Spa" title="Encalm Spa" style="width: 30px;"> Encalm Spa</option>
+                        <option value="<?=base_url()?>services/enwrap"><img src="<?=base_url()?>assets/image/logolounge.png" alt="Enwrap" title="Enwrap" style="width: 30px;"> Enwrap</option>
+                    </select> 
                     
                     <div class="clear"></div>
                     <button class="books" id="book_now" onclick="">Book Now</button>

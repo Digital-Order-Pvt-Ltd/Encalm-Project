@@ -1172,6 +1172,21 @@
           <h1 class="mt-4">Blogs</h1>
           <div id="elite">
             <div class="row mb-5">
+            
+            <div class="col-md-4">
+                <div class="splan mt-4 shadow p-3 mb-5 bg-white rounded">
+                  <p><img class="w-100" style="margin-bottom:5px;" alt="5 Tips for Sustainable Travel" src="<?= base_url('') ?>/assets/image/blog_10.jpg" width="400" height="400"></p>
+                  <h4 class="mt-3" style="min-height: 86px;"><a href="<?= base_url('') ?>blogs/How-Encalm-Eases-Airport-Hassles-For-Moms-On-The-Go">How Encalm Eases Airport Hassles For Moms On The Go</a></h4>
+                  <p class="text-right"><a href="<?= base_url('') ?>blogs/How-Encalm-Eases-Airport-Hassles-For-Moms-On-The-Go" class="btn btn-primary my-2 px-3 py-1 btn-sm">Read More</a></p>
+                </div>
+              </div>
+            <div class="col-md-4">
+                <div class="splan mt-4 shadow p-3 mb-5 bg-white rounded">
+                  <p><img class="w-100" style="margin-bottom:5px;" alt="5 Tips for Sustainable Travel" src="<?= base_url('') ?>/assets/image/blog_9.jpg"></p>
+                  <h4 class="mt-3" style="min-height: 86px;"><a href="<?= base_url('') ?>blogs/5-Tips-for-Sustainable-Travel">5 Tips for Sustainable Travel</a></h4>
+                  <p class="text-right"><a href="<?= base_url('') ?>blogs/5-Tips-for-Sustainable-Travel" class="btn btn-primary my-2 px-3 py-1 btn-sm">Read More</a></p>
+                </div>
+              </div>
             <div class="col-md-4">
                 <div class="splan mt-4 shadow p-3 mb-5 bg-white rounded">
                   <p><img class="w-100" style="margin-bottom:5px;" alt="How to de-stress before your next flight" src="<?= base_url('') ?>/assets/image/blog_8.jpg"></p>
@@ -1179,6 +1194,7 @@
                   <p class="text-right"><a href="<?= base_url('') ?>blogs/how-to-de-stress-before-your-next-flight" class="btn btn-primary my-2 px-3 py-1 btn-sm">Read More</a></p>
                 </div>
               </div>
+             
             <div class="col-md-4">
                 <div class="splan mt-4 shadow p-3 mb-5 bg-white rounded">
                   <p><img class="w-100" style="margin-bottom:5px;" alt="Traveling alone with your child? We can help" src="<?= base_url('') ?>/assets/image/blog_13.jpg" ></p>

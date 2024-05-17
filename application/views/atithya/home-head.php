@@ -47,6 +47,7 @@ twq('track','PageView');
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css"/>
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/rowreorder/1.2.8/css/rowReorder.dataTables.min.css"/>
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.dataTables.min.css"/>
+
 <!-- Template Main CSS File -->
 <link href="<?=base_url('atithya_assets/')?>assets/css/style.css" rel="stylesheet">
 <script src="<?=base_url('atithya_assets/')?>assets/js/jquery-2.2.4.min.js"></script> 

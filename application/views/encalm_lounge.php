@@ -1265,9 +1265,9 @@ gtag('config', 'G-MLXLN4EQZ5');
                     <div class="departure_block">
                         <h4>Domestic Departure Lounges</h4>
                         <ul>
-                            <li>INR 1610 plus taxes for access up to 2 hours</li>
-                            <li>Additional hours- INR 508 plus taxes per hour</li>
-                            <li>Children INR 1123 plus taxes (ages 6-11)</li>
+                            <li>INR 1796 excluding tax for access up to 2 hours</li>
+                            <li>Additional hours- INR 593 excluding tax per hour</li>
+                            <li>Children INR 1355 excluding tax (ages 6-11)</li>
                         </ul>
 
                     </div>
@@ -1276,9 +1276,9 @@ gtag('config', 'G-MLXLN4EQZ5');
                     <div class="departure_block">
                         <h4>International Departure Lounges</h4>
                         <ul>
-                            <li>INR 2627 plus taxes for access up to 2 hours</li>
-                            <li>Additional hours- INR 1187 plus taxes per hour</li>
-                            <li>Children INR 1610 plus taxes (ages 6-11)</li>
+                            <li>INR 2898 excluding tax for access up to 2 hours</li>
+                            <li>Additional hours- INR 1296 excluding tax per hour</li>
+                            <li>Children INR 1864 excluding tax  (ages 6-11)</li>
                         </ul>
 
                     </div>

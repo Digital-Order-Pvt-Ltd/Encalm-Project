@@ -56,6 +56,14 @@ class Blogs extends CI_Controller {
 	{
 		$this->load->view('atithya/blog_8');
 	}
+	public function blog_9() 
+	{
+		$this->load->view('atithya/blog_9');
+	}
+	public function blog_10() 
+	{
+		$this->load->view('atithya/blog_10');
+	}
 	public function blog_11() 
 	{
 		$this->load->view('atithya/blog_11');
